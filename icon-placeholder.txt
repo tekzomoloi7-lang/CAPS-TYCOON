@@ -1,0 +1,22 @@
+ICON PLACEHOLDER FILE
+
+To complete PWA setup, you need to create app icons:
+
+1. Create icon-192.png (192x192 pixels)
+2. Create icon-512.png (512x512 pixels)
+
+You can use these tools to generate icons:
+- https://www.pwabuilder.com/imageGenerator
+- https://realfavicongenerator.net/
+- Use any image editor to create square PNG images
+
+Recommended design:
+- Use the app's color scheme (green #22c55e, yellow #eab308, orange #f97316)
+- Include app logo or "Mzansi Learn" text
+- Ensure icons are clear and recognizable at small sizes
+
+For now, the app will work without icons, but icons are required for:
+- Home screen installation
+- Splash screens
+- App store listings
+
