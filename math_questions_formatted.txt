@@ -1,0 +1,3705 @@
+
+============================================================
+GRADE 8 MATHEMATICS QUESTIONS (70 questions)
+============================================================
+
+Question 1:
+  Q: The HCF of is ... A. B. 24 C. 3 D. 3
+  Options:
+    ✓ A. B. C. D. 1
+      B. 2,38 B. 2,420 C. 2,756 D. 2,758
+      C. 18 B. 77 C. 170 D. 17
+      D. Option not available
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 2:
+  Q: The HCF of 18, 30, and 48 is
+  Options:
+    ✓ A. 3
+      B. 4
+      C. 6
+      D. 8
+  Topic: Number Patterns
+  Note: CAPS Grade 8: Number Patterns
+
+Question 3:
+  Q: Which of the following is a whole number
+  Options:
+    ✓ A. -3
+      B. 0
+      C. √2
+      D. π
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 4:
+  Q: Which number is an integer
+  Options:
+    ✓ A. 3.14
+      B. -5
+      C. 1/2
+      D. √9
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 5:
+  Q: Which number is irrational
+  Options:
+    ✓ A. 4
+      B. 0.25
+      C. √16
+      D. 1/3
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 6:
+  Q: Patterns/Functions (21-40) 21. The next term in 1, 3, 5, 7 is
+  Options:
+    ✓ A. 9
+      B. 11
+      C. 8
+      D. 10
+  Topic: Functions
+  Note: CAPS Grade 8: Functions
+
+Question 7:
+  Q: The general term for 2, 5, 8, 11 is
+  Options:
+    ✓ A. Tn = 2 + 3(n-1)
+      B. Tn = 3 + 2(n-1)
+      C. Tn = 3n + 2
+      D. Tn
+  Topic: Number Patterns
+  Note: CAPS Grade 8: Number Patterns
+
+Question 8:
+  Q: The sum of the first 4 terms of 1, 3, 5, 7 is
+  Options:
+    ✓ A. 16
+      B. 20
+      C. 15
+      D. 12
+  Topic: Number Patterns
+  Note: CAPS Grade 8: Number Patterns
+
+Question 9:
+  Q: The common difference in 4, 9, 14 is
+  Options:
+    ✓ A. 5
+      B. 4
+      C. 9
+      D. 14
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 10:
+  Q: The n-th term for 1, 4, 9, 16 is
+  Options:
+    ✓ A. n^2
+      B. 2n
+      C. n + 1
+      D. 2n
+  Topic: Number Patterns
+  Note: CAPS Grade 8: Number Patterns
+
+Question 11:
+  Q: The y-intercept of y = 2x is
+  Options:
+    ✓ A. (0,0)
+      B. (0,2)
+      C. (2,0)
+      D. (0,1)
+  Topic: Functions
+  Note: CAPS Grade 8: Functions
+
+Question 12:
+  Q: The x-intercept of y = x - 1 is
+  Options:
+    ✓ A. (1,0)
+      B. (0,1)
+      C. (0,-1)
+      D. (-1,0)
+  Topic: Functions
+  Note: CAPS Grade 8: Functions
+
+Question 13:
+  Q: The gradient of y = x is
+  Options:
+    ✓ A. 1
+      B. 0
+      C. -1
+      D. 2
+  Topic: Functions
+  Note: CAPS Grade 8: Functions
+
+Question 14:
+  Q: The equation with gradient 3 and y-intercept 2 is
+  Options:
+    ✓ A. y = 3x + 2
+      B. y = 2x + 3
+      C. y = 3x - 2
+      D. y
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 15:
+  Q: The inverse of y = x + 2 is
+  Options:
+    ✓ A. y = x - 2
+      B. y = -x + 2
+      C. y = x + 2
+      D. y
+  Topic: Functions
+  Note: CAPS Grade 8: Functions
+
+Question 16:
+  Q: The domain of y = 1/x is
+  Options:
+    ✓ A. x ≠ 0
+      B. x = 0
+      C. x > 0
+      D. x
+  Topic: Functions
+  Note: CAPS Grade 8: Functions
+
+Question 17:
+  Q: The range of y = 1/x is
+  Options:
+    ✓ A. y ≠ 0
+      B. y = 0
+      C. y > 0
+      D. y
+  Topic: Functions
+  Note: CAPS Grade 8: Functions
+
+Question 18:
+  Q: The asymptote of y = 1/x is
+  Options:
+    ✓ A. x = 0, y = 0
+      B. x = 1, y = 1
+      C. x = 0, y = 1
+      D. x
+  Topic: Functions
+  Note: CAPS Grade 8: Functions
+
+Question 19:
+  Q: The turning point of y = x^2 is
+  Options:
+    ✓ A. (0,0)
+      B. (0,1)
+      C. (1,0)
+      D. (0,-1)
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 20:
+  Q: The axis of symmetry for y = x^2 is
+  Options:
+    ✓ A. x = 0
+      B. y = 0
+      C. y = x
+      D. y
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 21:
+  Q: Algebra/Equations (41-60) 41. Solve x + 3 = 7
+  Options:
+    ✓ A. x = 4
+      B. x = 10
+      C. x = 0
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 22:
+  Q: Solve 2x = 10
+  Options:
+    ✓ A. x = 5
+      B. x = 20
+      C. x = 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 23:
+  Q: Solve x - 4 = 2
+  Options:
+    ✓ A. x = 6
+      B. x = -2
+      C. x = 4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 24:
+  Q: Solve 3x + 9 = 0
+  Options:
+    ✓ A. x = -3
+      B. x = 3
+      C. x = -9
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 25:
+  Q: Solve x^2 = 4
+  Options:
+    ✓ A. x = 2, -2
+      B. x = 4, -4
+      C. x = 1, -1
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 26:
+  Q: Factor (x + 1)(x + 5) =
+  Options:
+    ✓ A. x^2 + 6x + 5
+      B. x^2 + 6x - 5
+      C. x^2 - 6x + 5
+      D. x^2
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 27:
+  Q: Simplify 4x + 2x
+  Options:
+    ✓ A. 6x
+      B. 8x
+      C. x^6
+      D. x^2
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 28:
+  Q: Simplify x^3 * x^2
+  Options:
+    ✓ A. x^5
+      B. x^6
+      C. x^3
+      D. x^2
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 29:
+  Q: Simplify (x^6) / (x^3)
+  Options:
+    ✓ A. x^3
+      B. x^9
+      C. x^6
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 30:
+  Q: Solve 3(x + 2) = 12
+  Options:
+    ✓ A. x = 2
+      B. x = 3
+      C. x = 4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 31:
+  Q: Solve x/3 = 6
+  Options:
+    ✓ A. x = 18
+      B. x = 2
+      C. x = 3
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 32:
+  Q: Factor x^2 - 9
+  Options:
+    ✓ A. (x - 3)(x + 3)
+      B. (x - 3)(x - 3)
+      C. (x + 3)(x + 3)
+      D. (x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 33:
+  Q: Simplify 4(x - 2) + 3
+  Options:
+    ✓ A. 4x - 5
+      B. 4x + 5
+      C. 4x - 8 + 3
+      D. 4x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 34:
+  Q: Solve 5x - 10 = 0
+  Options:
+    ✓ A. x = 2
+      B. x = 5
+      C. x = 10
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 35:
+  Q: Solve x^2 + 3x - 4 = 0
+  Options:
+    ✓ A. x = 1, -4
+      B. x = 4, -1
+      C. x = 2, -2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 36:
+  Q: Solve for x in 2x - 1 = 7
+  Options:
+    ✓ A. x = 4
+      B. x = 3
+      C. x = 5
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 37:
+  Q: Factor 4x^2 - 16
+  Options:
+    ✓ A. 4(x - 2)(x + 2)
+      B. (2x - 4)(2x + 4)
+      C. (x - 4)(x + 4)
+      D. 4(x^2
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 38:
+  Q: Simplify (3x + 2) - (x - 1)
+  Options:
+    ✓ A. 2x + 3
+      B. 4x + 1
+      C. 2x - 3
+      D. 4x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 39:
+  Q: Solve x^2 = 25
+  Options:
+    ✓ A. x = 5, -5
+      B. x = 25, -25
+      C. x = 1, -1
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 8: Algebra
+
+Question 40:
+  Q: The value of x in x + 4 = 10 is
+  Options:
+    ✓ A. 6
+      B. 14
+      C. 4
+      D. -4
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 41:
+  Q: The sum of angles in a triangle is
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 8: Geometry
+
+Question 42:
+  Q: Find the value of
+  Options:
+    ✓ A. 13,3°
+      B. 15°
+      C. 40°
+      D. 10°
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 43:
+  Q: If DE ∥ FG, then the value of is
+  Options:
+    ✓ A. 30°
+      B. 120°
+      C. 40°
+      D. 60°
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 44:
+  Q: Find the value of
+  Options:
+    ✓ A. 13,3°
+      B. 15°
+      C. 40°
+      D. 10°
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 45:
+  Q: Calculate in the quadrilateral where
+  Options:
+    ✓ A. 70°
+      B. 80°
+      C. 90°
+      D. 100°
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 46:
+  Q: In a straight line, adjacent angles sum to
+  Options:
+    ✓ A. 180°
+      B. 90°
+      C. 360°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 8: Geometry
+
+Question 47:
+  Q: The number of sides in a pentagon is
+  Options:
+    ✓ A. 5
+      B. 4
+      C. 6
+      D. 3
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 48:
+  Q: The interior angle sum of a quadrilateral is
+  Options:
+    ✓ A. 360°
+      B. 180°
+      C. 540°
+      D. 720°
+  Topic: Geometry
+  Note: CAPS Grade 8: Geometry
+
+Question 49:
+  Q: In a regular pentagon, each interior angle is
+  Options:
+    ✓ A. 108°
+      B. 90°
+      C. 120°
+      D. 135°
+  Topic: Geometry
+  Note: CAPS Grade 8: Geometry
+
+Question 50:
+  Q: Convert 5000 g to kg
+  Options:
+    ✓ A. 5 kg
+      B. 50 kg
+      C. 0.5 kg
+      D. 500
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 51:
+  Q: The perimeter of a triangle with sides 3, 4, 5 is
+  Options:
+    ✓ A. 12
+      B. 15
+      C. 10
+      D. 9
+  Topic: Geometry
+  Note: CAPS Grade 8: Geometry
+
+Question 52:
+  Q: Convert 1 km to m
+  Options:
+    ✓ A. 1000 m
+      B. 100 m
+      C. 10 m
+      D. 10000
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 53:
+  Q: Convert 2 hours to minutes
+  Options:
+    ✓ A. 120 min
+      B. 60 min
+      C. 180 min
+      D. 90
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 54:
+  Q: The time in seconds for 5 minutes is
+  Options:
+    ✓ A. 300 s
+      B. 600 s
+      C. 150 s
+      D. 360
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 55:
+  Q: The capacity of 1 L is
+  Options:
+    ✓ A. 1000 ml
+      B. 100 ml
+      C. 10 ml
+      D. 10000
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 56:
+  Q: The mass of 2 kg is
+  Options:
+    ✓ A. 2000 g
+      B. 200 g
+      C. 20 g
+      D. 20000
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 57:
+  Q: Data Handling/Probability (41-60) 41. The mean of 2, 4, 6 is
+  Options:
+    ✓ A. 4
+      B. 2
+      C. 6
+      D. 12
+  Topic: Statistics
+  Note: CAPS Grade 8: Statistics
+
+Question 58:
+  Q: The median of 1, 3, 5 is
+  Options:
+    ✓ A. 3
+      B. 1
+      C. 5
+      D. 4
+  Topic: Statistics
+  Note: CAPS Grade 8: Statistics
+
+Question 59:
+  Q: The mode of 1, 2, 2 is
+  Options:
+    ✓ A. 2
+      B. 1
+      C. 3
+      D. No
+  Topic: Statistics
+  Note: CAPS Grade 8: Statistics
+
+Question 60:
+  Q: The range of 10, 20 is
+  Options:
+    ✓ A. 10
+      B. 20
+      C. 15
+      D. 5
+  Topic: Functions
+  Note: CAPS Grade 8: Functions
+
+Question 61:
+  Q: The probability of rolling 1 on a die is
+  Options:
+    ✓ A. 1/6
+      B. 1/2
+      C. 1/3
+      D. 1
+  Topic: Statistics
+  Note: CAPS Grade 8: Statistics
+
+Question 62:
+  Q: The number of outcomes for flipping a coin is
+  Options:
+    ✓ A. 2
+      B. 1
+      C. 3
+      D. 4
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 63:
+  Q: The mean of grouped data is
+  Options:
+    ✓ A. Sum (f x m) / sum f
+      B. Sum f / sum m
+      C. Sum m / sum f
+      D. Sum
+  Topic: Statistics
+  Note: CAPS Grade 8: Statistics
+
+Question 64:
+  Q: The probability of an impossible event is
+  Options:
+    ✓ A. 0
+      B. 1
+      C. 0.5
+      D. 2
+  Topic: Statistics
+  Note: CAPS Grade 8: Statistics
+
+Question 65:
+  Q: The probability of a certain event is
+  Options:
+    ✓ A. 1
+      B. 0
+      C. 0.5
+      D. -1
+  Topic: Statistics
+  Note: CAPS Grade 8: Statistics
+
+Question 66:
+  Q: The number of ways to arrange 2 items is
+  Options:
+    ✓ A. 2
+      B. 1
+      C. 4
+      D. 3
+  Topic: Functions
+  Note: CAPS Grade 8: Functions
+
+Question 67:
+  Q: The sample space for a die is
+  Options:
+    ✓ A. 1-6
+      B. 1-12
+      C. 0-6
+      D. 2-12
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 68:
+  Q: The event "even number on die" has probability
+  Options:
+    ✓ A. 1/2
+      B. 1/3
+      C. 1/6
+      D. 1
+  Topic: Statistics
+  Note: CAPS Grade 8: Statistics
+
+Question 69:
+  Q: The complement of P(A) = 0.4 is
+  Options:
+    ✓ A. 0.6
+      B. 0.4
+      C. 1
+      D. 0
+  Topic: General
+  Note: CAPS Grade 8: General
+
+Question 70:
+  Q: The mean from a frequency table is
+  Options:
+    ✓ A. Sum (f x x) / sum f
+      B. Sum f / sum x
+      C. Sum x / sum f
+      D. Sum
+  Topic: Statistics
+  Note: CAPS Grade 8: Statistics
+
+
+============================================================
+GRADE 9 MATHEMATICS QUESTIONS (89 questions)
+============================================================
+
+Question 1:
+  Q: The LCM of 12 and 18 is
+  Options:
+    ✓ A. 36
+      B. 24
+      C. 72
+      D. 6
+  Topic: Number Patterns
+  Note: CAPS Grade 9: Number Patterns
+
+Question 2:
+  Q: The HCF of 24 and 36 is
+  Options:
+    ✓ A. 12
+      B. 24
+      C. 6
+      D. 36
+  Topic: Number Patterns
+  Note: CAPS Grade 9: Number Patterns
+
+Question 3:
+  Q: The next term in the sequence 2, 4, 8, 16 is
+  Options:
+    ✓ A. 32
+      B. 24
+      C. 18
+      D. 64
+  Topic: Number Patterns
+  Note: CAPS Grade 9: Number Patterns
+
+Question 4:
+  Q: The general term for the arithmetic sequence 3, 7, 11 is
+  Options:
+    ✓ A. Tn = 3 + 4(n-1)
+      B. Tn = 4 + 3(n-1)
+      C. Tn = 3n + 4
+      D. Tn
+  Topic: Number Patterns
+  Note: CAPS Grade 9: Number Patterns
+
+Question 5:
+  Q: The sum of the first 5 terms of 1, 2, 3, 4, 5 is
+  Options:
+    ✓ A. 15
+      B. 10
+      C. 20
+      D. 25
+  Topic: Number Patterns
+  Note: CAPS Grade 9: Number Patterns
+
+Question 6:
+  Q: The common ratio in the geometric sequence 2, 6, 18 is
+  Options:
+    ✓ A. 3
+      B. 2
+      C. 6
+      D. 4
+  Topic: Number Patterns
+  Note: CAPS Grade 9: Number Patterns
+
+Question 7:
+  Q: The 4th term in the geometric sequence 1, 3, 9 is
+  Options:
+    ✓ A. 27
+      B. 18
+      C. 81
+      D. 9
+  Topic: Number Patterns
+  Note: CAPS Grade 9: Number Patterns
+
+Question 8:
+  Q: The sum of the infinite geometric series 1 + 1/2 + 1/4 + ... is
+  Options:
+    ✓ A. 2
+      B. 1
+      C. 3
+      D. Infinite
+  Topic: Number Patterns
+  Note: CAPS Grade 9: Number Patterns
+
+Question 9:
+  Q: The number 48 as a product of primes is
+  Options:
+    ✓ A. 2^4 * 3
+      B. 2^3 * 3^2
+      C. 2^5 * 3
+      D. 2^4
+  Topic: General
+  Note: CAPS Grade 9: General
+
+Question 10:
+  Q: The square root of 16 is
+  Options:
+    ✓ A. 4
+      B. 2
+      C. 8
+      D. 16
+  Topic: Exponents
+  Note: CAPS Grade 9: Exponents
+
+Question 11:
+  Q: The cube root of 27 is
+  Options:
+    ✓ A. 3
+      B. 9
+      C. 81
+      D. 6
+  Topic: Exponents
+  Note: CAPS Grade 9: Exponents
+
+Question 12:
+  Q: The value of 2^3 * 2^2 is
+  Options:
+    ✓ A. 2^5
+      B. 2^6
+      C. 2^4
+      D. 2^1
+  Topic: Exponents
+  Note: CAPS Grade 9: Exponents
+
+Question 13:
+  Q: The value of 8^1/3 is
+  Options:
+    ✓ A. 2
+      B. 4
+      C. 8
+      D. 1
+  Topic: Exponents
+  Note: CAPS Grade 9: Exponents
+
+Question 14:
+  Q: The n-th term for square numbers is
+  Options:
+    ✓ A. n^2
+      B. 2n
+      C. n + 1
+      D. n
+  Topic: Number Patterns
+  Note: CAPS Grade 9: Number Patterns
+
+Question 15:
+  Q: The asymptote of y = 1/x is
+  Options:
+    ✓ A. y = 0, x = 0
+      B. y = 1, x = 1
+      C. y = 0, x = 1
+      D. y
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 16:
+  Q: The y-intercept of y = 2x + 1 is
+  Options:
+    ✓ A. (0, 1)
+      B. (1, 0)
+      C. (0, 0)
+      D. (0,
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 17:
+  Q: The x-intercept of y = 2x + 4 is
+  Options:
+    ✓ A. (-2, 0)
+      B. (2, 0)
+      C. (0, 4)
+      D. (0,
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 18:
+  Q: The gradient of y = 3x - 1 is
+  Options:
+    ✓ A. 3
+      B. -1
+      C. 1
+      D. -3
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 19:
+  Q: The equation of the line with gradient 2 and y-intercept 3 is
+  Options:
+    ✓ A. y = 2x + 3
+      B. y = 3x + 2
+      C. y = 2x - 3
+      D. y
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 20:
+  Q: The inverse of y = x + 1 is
+  Options:
+    ✓ A. y = x - 1
+      B. y = -x + 1
+      C. y = x + 1
+      D. y
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 21:
+  Q: The turning point of y = x^2 - 2x - 3 is
+  Options:
+    ✓ A. (1, -4)
+      B. (1, 4)
+      C. (-1, -4)
+      D. (-1,
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 22:
+  Q: The axis of symmetry for y = x^2 is
+  Options:
+    ✓ A. x = 0
+      B. y = 0
+      C. y = x
+      D. y
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 23:
+  Q: Solve x + 5 = 10
+  Options:
+    ✓ A. x = 5
+      B. x = 15
+      C. x = 0
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 24:
+  Q: Solve 2x = 8
+  Options:
+    ✓ A. x = 4
+      B. x = 16
+      C. x = 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 25:
+  Q: Solve x - 3 = 7
+  Options:
+    ✓ A. x = 10
+      B. x = 4
+      C. x = -4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 26:
+  Q: Solve 3x + 6 = 0
+  Options:
+    ✓ A. x = -2
+      B. x = 2
+      C. x = -6
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 27:
+  Q: Solve x^2 = 9
+  Options:
+    ✓ A. x = 3, -3
+      B. x = 9, -9
+      C. x = 1, -1
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 28:
+  Q: Factor (x + 2)(x + 3) =
+  Options:
+    ✓ A. x^2 + 5x + 6
+      B. x^2 + 5x - 6
+      C. x^2 - 5x + 6
+      D. x^2
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 29:
+  Q: Simplify 2x + 3x
+  Options:
+    ✓ A. 5x
+      B. 6x
+      C. x^5
+      D. x^6
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 30:
+  Q: Simplify x^2 * x^3
+  Options:
+    ✓ A. x^5
+      B. x^6
+      C. x^2
+      D. x^3
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 31:
+  Q: Simplify (x^4) / (x^2)
+  Options:
+    ✓ A. x^2
+      B. x^6
+      C. x^4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 32:
+  Q: Solve 2(x + 1) = 8
+  Options:
+    ✓ A. x = 3
+      B. x = 4
+      C. x = 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 33:
+  Q: Solve x/2 = 4
+  Options:
+    ✓ A. x = 8
+      B. x = 2
+      C. x = 4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 34:
+  Q: Factor x^2 - 4
+  Options:
+    ✓ A. (x - 2)(x + 2)
+      B. (x - 2)(x - 2)
+      C. (x + 2)(x + 2)
+      D. (x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 35:
+  Q: Simplify 3(x - 1) + 2
+  Options:
+    ✓ A. 3x - 1
+      B. 3x + 1
+      C. 3x - 3 + 2
+      D. 3x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 36:
+  Q: Solve 4x - 8 = 0
+  Options:
+    ✓ A. x = 2
+      B. x = 4
+      C. x = 8
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 37:
+  Q: Solve x^2 + 2x - 3 = 0
+  Options:
+    ✓ A. x = 1, -3
+      B. x = 3, -1
+      C. x = 2, -2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 38:
+  Q: The simple interest on R1000 at 5% for 2 years is
+  Options:
+    ✓ A. R100
+      B. R200
+      C. R50
+      D. R150
+  Topic: Financial Maths
+  Note: CAPS Grade 9: Financial Maths
+
+Question 39:
+  Q: The compound interest on R1000 at 5% for 2 years is
+  Options:
+    ✓ A. R102.5
+      B. R100
+      C. R105
+      D. R110
+  Topic: Financial Maths
+  Note: CAPS Grade 9: Financial Maths
+
+Question 40:
+  Q: The future value of R1000 at 5% simple for 2 years is
+  Options:
+    ✓ A. R1100
+      B. R1102.5
+      C. R1050
+      D. R1000
+  Topic: Financial Maths
+  Note: CAPS Grade 9: Financial Maths
+
+Question 41:
+  Q: The present value of R1100 at 5% simple for 2 years is
+  Options:
+    ✓ A. R1000
+      B. R1100
+      C. R1050
+      D. R1200
+  Topic: Financial Maths
+  Note: CAPS Grade 9: Financial Maths
+
+Question 42:
+  Q: The monthly payment for R12000 loan at 10% p.a. for 1 year is
+  Options:
+    ✓ A. R1000
+      B. R1100
+      C. R1050
+      D. R1200
+  Topic: Financial Maths
+  Note: CAPS Grade 9: Financial Maths
+
+Question 43:
+  Q: The total interest on R5000 at 8% simple for 3 years is
+  Options:
+    ✓ A. R1200
+      B. R1000
+      C. R1500
+      D. R800
+  Topic: Financial Maths
+  Note: CAPS Grade 9: Financial Maths
+
+Question 44:
+  Q: The effective rate for 12% p.a. compounded monthly is
+  Options:
+    ✓ A. 12.68%
+      B. 12%
+      C. 13%
+      D. 11.5%
+  Topic: Financial Maths
+  Note: CAPS Grade 9: Financial Maths
+
+Question 45:
+  Q: The future value of R200 annuity at 5% for 3 years is
+  Options:
+    ✓ A. R630
+      B. R600
+      C. R615
+      D. R650
+  Topic: Financial Maths
+  Note: CAPS Grade 9: Financial Maths
+
+Question 46:
+  Q: The present value of R200 annuity at 5% for 3 years is
+  Options:
+    ✓ A. R545
+      B. R600
+      C. R550
+      D. R500
+  Topic: Financial Maths
+  Note: CAPS Grade 9: Financial Maths
+
+Question 47:
+  Q: The depreciation of R10000 at 10% straight line for 5 years is
+  Options:
+    ✓ A. R5000
+      B. R6000
+      C. R4000
+      D. R7000
+  Topic: Analytical Geometry
+  Note: CAPS Grade 9: Analytical Geometry
+
+Question 48:
+  Q: The book value after 2 years of R10000 at 10% reducing balance is
+  Options:
+    ✓ A. R8100
+      B. R8000
+      C. R9000
+      D. R7000
+  Topic: General
+  Note: CAPS Grade 9: General
+
+Question 49:
+  Q: The exchange rate R10 = $1, how many dollars for R500
+  Options:
+    ✓ A. $50
+      B. $500
+      C. $5
+      D. $100
+  Topic: General
+  Note: CAPS Grade 9: General
+
+Question 50:
+  Q: The inflation rate if price increases from R50 to R55 is
+  Options:
+    ✓ A. 10%
+      B. 5%
+      C. 15%
+      D. 20%
+  Topic: General
+  Note: CAPS Grade 9: General
+
+Question 51:
+  Q: The VAT at 15% on R100 is
+  Options:
+    ✓ A. R15
+      B. R10
+      C. R20
+      D. R5
+  Topic: General
+  Note: CAPS Grade 9: General
+
+Question 52:
+  Q: The price excluding VAT if inclusive is R115 is
+  Options:
+    ✓ A. R100
+      B. R110
+      C. R105
+      D. R120
+  Topic: General
+  Note: CAPS Grade 9: General
+
+Question 53:
+  Q: The mean of 1, 3, 5 is
+  Options:
+    ✓ A. 3
+      B. 4
+      C. 2
+      D. 5
+  Topic: Statistics
+  Note: CAPS Grade 9: Statistics
+
+Question 54:
+  Q: The median of 1, 2, 4, 5 is
+  Options:
+    ✓ A. 3
+      B. 2
+      C. 4
+      D. 1
+  Topic: Statistics
+  Note: CAPS Grade 9: Statistics
+
+Question 55:
+  Q: The mode of 1, 1, 2, 3 is
+  Options:
+    ✓ A. 1
+      B. 2
+      C. 3
+      D. No
+  Topic: Statistics
+  Note: CAPS Grade 9: Statistics
+
+Question 56:
+  Q: The range of 5, 10, 15 is
+  Options:
+    ✓ A. 10
+      B. 5
+      C. 15
+      D. 0
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 57:
+  Q: The variance of 2, 4, 6 is
+  Options:
+    ✓ A. 4/3
+      B. 2
+      C. 4
+      D. 1
+  Topic: General
+  Note: CAPS Grade 9: General
+
+Question 58:
+  Q: The standard deviation of 2, 4, 6 is
+  Options:
+    ✓ A. √(4/3)
+      B. 2
+      C. 1.15
+      D. 1
+  Topic: Trigonometry
+  Note: CAPS Grade 9: Trigonometry
+
+Question 59:
+  Q: The first quartile of 1, 2, 3, 4 is
+  Options:
+    ✓ A. 1.5
+      B. 1
+      C. 2
+      D. 3
+  Topic: General
+  Note: CAPS Grade 9: General
+
+Question 60:
+  Q: The third quartile of 1, 2, 3, 4 is
+  Options:
+    ✓ A. 3.5
+      B. 3
+      C. 4
+      D. 2
+  Topic: General
+  Note: CAPS Grade 9: General
+
+Question 61:
+  Q: The interquartile range of 1, 2, 3, 4 is
+  Options:
+    ✓ A. 2
+      B. 3
+      C. 1
+      D. 4
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 62:
+  Q: The mean of grouped data with classes 1-5 (f=2), 6-10 (f=3) is
+  Options:
+    ✓ A. 7
+      B. 5
+      C. 8
+      D. 6
+  Topic: Statistics
+  Note: CAPS Grade 9: Statistics
+
+Question 63:
+  Q: The probability of heads in a coin flip is
+  Options:
+    ✓ A. 1/2
+      B. 1
+      C. 0
+      D. 1/4
+  Topic: Statistics
+  Note: CAPS Grade 9: Statistics
+
+Question 64:
+  Q: The probability of drawing an ace from a deck is
+  Options:
+    ✓ A. 1/13
+      B. 1/4
+      C. 1/2
+      D. 1/52
+  Topic: Statistics
+  Note: CAPS Grade 9: Statistics
+
+Question 65:
+  Q: The number of ways to choose 2 items from 4 is
+  Options:
+    ✓ A. 6
+      B. 4
+      C. 2
+      D. 8
+  Topic: General
+  Note: CAPS Grade 9: General
+
+Question 66:
+  Q: Analytical Geometry (16-30) 16. The midpoint of (0,0) and (4,6) is
+  Options:
+    ✓ A. (2,3)
+      B. (0,3)
+      C. (4,3)
+      D. (2,6)
+  Topic: Analytical Geometry
+  Note: CAPS Grade 9: Analytical Geometry
+
+Question 67:
+  Q: The distance between (1,1) and (4,5) is
+  Options:
+    ✓ A. 5
+      B. 3
+      C. 4
+      D. 6
+  Topic: Trigonometry
+  Note: CAPS Grade 9: Trigonometry
+
+Question 68:
+  Q: The gradient between (0,0) and (2,4) is
+  Options:
+    ✓ A. 2
+      B. 4
+      C. 1
+      D. 0
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 69:
+  Q: The equation of the line through (0,2) with gradient 3 is
+  Options:
+    ✓ A. y = 3x + 2
+      B. y = 2x + 3
+      C. y = 3x - 2
+      D. y
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 70:
+  Q: The x-intercept of y = 3x - 6 is
+  Options:
+    ✓ A. (2,0)
+      B. (0,-6)
+      C. (6,0)
+      D. (0,6)
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 71:
+  Q: The y-intercept of y = -2x + 4 is
+  Options:
+    ✓ A. (0,4)
+      B. (2,0)
+      C. (0,-4)
+      D. (-2,0)
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 72:
+  Q: The line parallel to y = 4x is
+  Options:
+    ✓ A. y = 4x + 1
+      B. y = -4x
+      C. y = 1/4x
+      D. y
+  Topic: Geometry
+  Note: CAPS Grade 9: Geometry
+
+Question 73:
+  Q: The line perpendicular to y = 3x is
+  Options:
+    ✓ A. y = -1/3x
+      B. y = 3x + 1
+      C. y = 1/3x
+      D. y
+  Topic: Geometry
+  Note: CAPS Grade 9: Geometry
+
+Question 74:
+  Q: The centre of x^2 + y^2 = 25 is
+  Options:
+    ✓ A. (0,0)
+      B. (5,0)
+      C. (0,5)
+      D. (5,5)
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 75:
+  Q: The radius of (x - 2)^2 + (y - 3)^2 = 16 is
+  Options:
+    ✓ A. 4
+      B. 16
+      C. 2
+      D. 8
+  Topic: Exponents
+  Note: CAPS Grade 9: Exponents
+
+Question 76:
+  Q: The equation of the circle with centre (1,1) and radius 3 is
+  Options:
+    ✓ A. (x - 1)^2 + (y - 1)^2 = 9
+      B. (x - 1)^2 + (y - 1)^2 = 3
+      C. x^2 + y^2 = 9
+      D. x^2
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 77:
+  Q: The point (3,4) lies on x^2 + y^2 = 25 because
+  Options:
+    ✓ A. 9 + 16 = 25
+      B. 9 + 16 = 50
+      C. 3 + 4 = 7
+      D. 3*4
+  Topic: Algebra
+  Note: CAPS Grade 9: Algebra
+
+Question 78:
+  Q: The distance formula is
+  Options:
+    ✓ A. √((x2 - x1)^2 + (y2 - y1)^2)
+      B. (x2 - x1) + (y2 - y1)
+      C. (x2 - x1)^2 + (y2 - y1)^2
+      D. √((x2
+  Topic: Trigonometry
+  Note: CAPS Grade 9: Trigonometry
+
+Question 79:
+  Q: The midpoint formula is
+  Options:
+    ✓ A. ((x1 + x2)/2, (y1 + y2)/2)
+      B. (x1 + x2, y1 + y2)
+      C. ((x1 - x2)/2, (y1 - y2)/2)
+      D. (x1
+  Topic: Analytical Geometry
+  Note: CAPS Grade 9: Analytical Geometry
+
+Question 80:
+  Q: The gradient formula is
+  Options:
+    ✓ A. (y2 - y1)/(x2 - x1)
+      B. (x2 - x1)/(y2 - y1)
+      C. (y2 + y1)/(x2 + x1)
+      D. (y2
+  Topic: Functions
+  Note: CAPS Grade 9: Functions
+
+Question 81:
+  Q: The hypotenuse in a 5-12-13 triangle is
+  Options:
+    ✓ A. 13
+      B. 5
+      C. 12
+      D. 17
+  Topic: Geometry
+  Note: CAPS Grade 9: Geometry
+
+Question 82:
+  Q: The value of sin 90° is
+  Options:
+    ✓ A. 1
+      B. 0
+      C. √3/2
+      D. 1/2
+  Topic: Trigonometry
+  Note: CAPS Grade 9: Trigonometry
+
+Question 83:
+  Q: The value of cos 0° is
+  Options:
+    ✓ A. 1
+      B. 0
+      C. √3/2
+      D. 1/2
+  Topic: Trigonometry
+  Note: CAPS Grade 9: Trigonometry
+
+Question 84:
+  Q: The value of sin 60° is
+  Options:
+    ✓ A. √3/2
+      B. 1/2
+      C. 1
+      D. 0
+  Topic: Trigonometry
+  Note: CAPS Grade 9: Trigonometry
+
+Question 85:
+  Q: Euclidean Geometry (46-60) 46. The sum of interior angles of a triangle is
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 9: Geometry
+
+Question 86:
+  Q: The sum of interior angles of a quadrilateral is
+  Options:
+    ✓ A. 360°
+      B. 180°
+      C. 540°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 9: Geometry
+
+Question 87:
+  Q: The sum of interior angles of a pentagon is
+  Options:
+    ✓ A. 540°
+      B. 360°
+      C. 720°
+      D. 180°
+  Topic: Geometry
+  Note: CAPS Grade 9: Geometry
+
+Question 88:
+  Q: The angle sum formula for an n-sided polygon is
+  Options:
+    ✓ A. (n-2)180°
+      B. n180°
+      C. (n-1)*180°
+      D. (n+2)*180°
+  Topic: Geometry
+  Note: CAPS Grade 9: Geometry
+
+Question 89:
+  Q: In a square, all angles are
+  Options:
+    ✓ A. 90°
+      B. 60°
+      C. 120°
+      D. 45°
+  Topic: Geometry
+  Note: CAPS Grade 9: Geometry
+
+
+============================================================
+GRADE 10 MATHEMATICS QUESTIONS (86 questions)
+============================================================
+
+Question 1:
+  Q: The LCM of 12 and 18 is
+  Options:
+    ✓ A. 36
+      B. 24
+      C. 72
+      D. 6
+  Topic: Number Patterns
+  Note: CAPS Grade 10: Number Patterns
+
+Question 2:
+  Q: The HCF of 24 and 36 is
+  Options:
+    ✓ A. 12
+      B. 24
+      C. 6
+      D. 36
+  Topic: Number Patterns
+  Note: CAPS Grade 10: Number Patterns
+
+Question 3:
+  Q: The next term in the sequence 2, 4, 8, 16 is
+  Options:
+    ✓ A. 32
+      B. 24
+      C. 18
+      D. 64
+  Topic: Number Patterns
+  Note: CAPS Grade 10: Number Patterns
+
+Question 4:
+  Q: The general term for the arithmetic sequence 3, 7, 11 is
+  Options:
+    ✓ A. Tn = 3 + 4(n-1)
+      B. Tn = 4 + 3(n-1)
+      C. Tn = 3n + 4
+      D. Tn
+  Topic: Number Patterns
+  Note: CAPS Grade 10: Number Patterns
+
+Question 5:
+  Q: The sum of the first 5 terms of 1, 2, 3, 4, 5 is
+  Options:
+    ✓ A. 15
+      B. 10
+      C. 20
+      D. 25
+  Topic: Number Patterns
+  Note: CAPS Grade 10: Number Patterns
+
+Question 6:
+  Q: The common ratio in the geometric sequence 2, 6, 18 is
+  Options:
+    ✓ A. 3
+      B. 2
+      C. 6
+      D. 4
+  Topic: Number Patterns
+  Note: CAPS Grade 10: Number Patterns
+
+Question 7:
+  Q: The 4th term in the geometric sequence 1, 3, 9 is
+  Options:
+    ✓ A. 27
+      B. 18
+      C. 81
+      D. 9
+  Topic: Number Patterns
+  Note: CAPS Grade 10: Number Patterns
+
+Question 8:
+  Q: The sum of the infinite geometric series 1 + 1/2 + 1/4 + ... is
+  Options:
+    ✓ A. 2
+      B. 1
+      C. 3
+      D. Infinite
+  Topic: Number Patterns
+  Note: CAPS Grade 10: Number Patterns
+
+Question 9:
+  Q: The number 48 as a product of primes is
+  Options:
+    ✓ A. 2^4 * 3
+      B. 2^3 * 3^2
+      C. 2^5 * 3
+      D. 2^4
+  Topic: General
+  Note: CAPS Grade 10: General
+
+Question 10:
+  Q: The square root of 16 is
+  Options:
+    ✓ A. 4
+      B. 2
+      C. 8
+      D. 16
+  Topic: Exponents
+  Note: CAPS Grade 10: Exponents
+
+Question 11:
+  Q: The cube root of 27 is
+  Options:
+    ✓ A. 3
+      B. 9
+      C. 81
+      D. 6
+  Topic: Exponents
+  Note: CAPS Grade 10: Exponents
+
+Question 12:
+  Q: The value of 2^3 * 2^2 is
+  Options:
+    ✓ A. 2^5
+      B. 2^6
+      C. 2^4
+      D. 2^1
+  Topic: Exponents
+  Note: CAPS Grade 10: Exponents
+
+Question 13:
+  Q: The value of 8^1/3 is
+  Options:
+    ✓ A. 2
+      B. 4
+      C. 8
+      D. 1
+  Topic: Exponents
+  Note: CAPS Grade 10: Exponents
+
+Question 14:
+  Q: The n-th term for square numbers is
+  Options:
+    ✓ A. n^2
+      B. 2n
+      C. n + 1
+      D. n
+  Topic: Number Patterns
+  Note: CAPS Grade 10: Number Patterns
+
+Question 15:
+  Q: The asymptote of y = 1/x is
+  Options:
+    ✓ A. y = 0, x = 0
+      B. y = 1, x = 1
+      C. y = 0, x = 1
+      D. y
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 16:
+  Q: The y-intercept of y = 2x + 1 is
+  Options:
+    ✓ A. (0, 1)
+      B. (1, 0)
+      C. (0, 0)
+      D. (0,
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 17:
+  Q: The x-intercept of y = 2x + 4 is
+  Options:
+    ✓ A. (-2, 0)
+      B. (2, 0)
+      C. (0, 4)
+      D. (0,
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 18:
+  Q: The gradient of y = 3x - 1 is
+  Options:
+    ✓ A. 3
+      B. -1
+      C. 1
+      D. -3
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 19:
+  Q: The equation of the line with gradient 2 and y-intercept 3 is
+  Options:
+    ✓ A. y = 2x + 3
+      B. y = 3x + 2
+      C. y = 2x - 3
+      D. y
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 20:
+  Q: The inverse of y = x + 1 is
+  Options:
+    ✓ A. y = x - 1
+      B. y = -x + 1
+      C. y = x + 1
+      D. y
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 21:
+  Q: The turning point of y = x^2 - 2x - 3 is
+  Options:
+    ✓ A. (1, -4)
+      B. (1, 4)
+      C. (-1, -4)
+      D. (-1,
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 22:
+  Q: The axis of symmetry for y = x^2 is
+  Options:
+    ✓ A. x = 0
+      B. y = 0
+      C. y = x
+      D. y
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 23:
+  Q: Algebra (31-45) 31. Solve x + 5 = 10
+  Options:
+    ✓ A. x = 5
+      B. x = 15
+      C. x = 0
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 24:
+  Q: Solve 2x = 8
+  Options:
+    ✓ A. x = 4
+      B. x = 16
+      C. x = 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 25:
+  Q: Solve x - 3 = 7
+  Options:
+    ✓ A. x = 10
+      B. x = 4
+      C. x = -4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 26:
+  Q: Solve 3x + 6 = 0
+  Options:
+    ✓ A. x = -2
+      B. x = 2
+      C. x = -6
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 27:
+  Q: Solve x^2 = 9
+  Options:
+    ✓ A. x = 3, -3
+      B. x = 9, -9
+      C. x = 1, -1
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 28:
+  Q: Factor (x + 2)(x + 3) =
+  Options:
+    ✓ A. x^2 + 5x + 6
+      B. x^2 + 5x - 6
+      C. x^2 - 5x + 6
+      D. x^2
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 29:
+  Q: Simplify 2x + 3x
+  Options:
+    ✓ A. 5x
+      B. 6x
+      C. x^5
+      D. x^6
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 30:
+  Q: Simplify x^2 * x^3
+  Options:
+    ✓ A. x^5
+      B. x^6
+      C. x^2
+      D. x^3
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 31:
+  Q: Simplify (x^4) / (x^2)
+  Options:
+    ✓ A. x^2
+      B. x^6
+      C. x^4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 32:
+  Q: Solve 2(x + 1) = 8
+  Options:
+    ✓ A. x = 3
+      B. x = 4
+      C. x = 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 33:
+  Q: Solve x/2 = 4
+  Options:
+    ✓ A. x = 8
+      B. x = 2
+      C. x = 4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 34:
+  Q: Factor x^2 - 4
+  Options:
+    ✓ A. (x - 2)(x + 2)
+      B. (x - 2)(x - 2)
+      C. (x + 2)(x + 2)
+      D. (x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 35:
+  Q: Simplify 3(x - 1) + 2
+  Options:
+    ✓ A. 3x - 1
+      B. 3x + 1
+      C. 3x - 3 + 2
+      D. 3x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 36:
+  Q: Solve 4x - 8 = 0
+  Options:
+    ✓ A. x = 2
+      B. x = 4
+      C. x = 8
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 37:
+  Q: Solve x^2 + 2x - 3 = 0
+  Options:
+    ✓ A. x = 1, -3
+      B. x = 3, -1
+      C. x = 2, -2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 38:
+  Q: Finance (46-60) 46. Simple interest on R1000 at 5% p.a. for 2 years is
+  Options:
+    ✓ A. R100
+      B. R200
+      C. R50
+      D. R150
+  Topic: Financial Maths
+  Note: CAPS Grade 10: Financial Maths
+
+Question 39:
+  Q: The future value of R5000 at 6% compound for 3 years is
+  Options:
+    ✓ A. R5955
+      B. R5900
+      C. R6000
+      D. R5500
+  Topic: Financial Maths
+  Note: CAPS Grade 10: Financial Maths
+
+Question 40:
+  Q: The interest rate if A = R1200, P = R1000, n = 2 years simple is
+  Options:
+    ✓ A. 10%
+      B. 20%
+      C. 5%
+      D. 15%
+  Topic: Financial Maths
+  Note: CAPS Grade 10: Financial Maths
+
+Question 41:
+  Q: The monthly payment for a loan of R10000 at 12% p.a. over 2 years is
+  Options:
+    ✓ A. R470
+      B. R500
+      C. R450
+      D. R480
+  Topic: Financial Maths
+  Note: CAPS Grade 10: Financial Maths
+
+Question 42:
+  Q: The total interest on a loan of R5000 at 8% simple for 5 years is
+  Options:
+    ✓ A. R2000
+      B. R1500
+      C. R2500
+      D. R1000
+  Topic: Financial Maths
+  Note: CAPS Grade 10: Financial Maths
+
+Question 43:
+  Q: The effective interest rate for 10% p.a. compounded monthly is
+  Options:
+    ✓ A. 10.47%
+      B. 10%
+      C. 12%
+      D. 9.5%
+  Topic: Financial Maths
+  Note: CAPS Grade 10: Financial Maths
+
+Question 44:
+  Q: The future value of an annuity of R100 per month at 6% p
+  Options:
+    ✓ A. for 12 months is ...
+      B. R1230
+      C. R1200
+      D. R1250
+  Topic: Financial Maths
+  Note: CAPS Grade 10: Financial Maths
+
+Question 45:
+  Q: The present value of an annuity of R200 per year at 5% for 3 years is
+  Options:
+    ✓ A. R545
+      B. R600
+      C. R550
+      D. R500
+  Topic: Financial Maths
+  Note: CAPS Grade 10: Financial Maths
+
+Question 46:
+  Q: The depreciation of a car worth R100000 at 10% p.a. straight line for 5 years is
+  Options:
+    ✓ A. R50000
+      B. R60000
+      C. R40000
+      D. R70000
+  Topic: Analytical Geometry
+  Note: CAPS Grade 10: Analytical Geometry
+
+Question 47:
+  Q: The book value after 3 years of R200000 asset at 15% reducing balance is
+  Options:
+    ✓ A. R131625
+      B. R140000
+      C. R150000
+      D. R120000
+  Topic: General
+  Note: CAPS Grade 10: General
+
+Question 48:
+  Q: The exchange rate R15 = $1, how many dollars for R3000
+  Options:
+    ✓ A. $200
+      B. $300
+      C. $150
+      D. $450
+  Topic: General
+  Note: CAPS Grade 10: General
+
+Question 49:
+  Q: The inflation rate if price increases from R100 to R110 is
+  Options:
+    ✓ A. 10%
+      B. 5%
+      C. 15%
+      D. 20%
+  Topic: General
+  Note: CAPS Grade 10: General
+
+Question 50:
+  Q: The mean of 2, 4, 6, 8 is
+  Options:
+    ✓ A. 5
+      B. 6
+      C. 4
+      D. 7
+  Topic: Statistics
+  Note: CAPS Grade 10: Statistics
+
+Question 51:
+  Q: The median of 1, 3, 5, 7, 9 is
+  Options:
+    ✓ A. 5
+      B. 3
+      C. 7
+      D. 9
+  Topic: Statistics
+  Note: CAPS Grade 10: Statistics
+
+Question 52:
+  Q: The mode of 1, 2, 2, 3 is
+  Options:
+    ✓ A. 2
+      B. 1
+      C. 3
+      D. No
+  Topic: Statistics
+  Note: CAPS Grade 10: Statistics
+
+Question 53:
+  Q: The range of 10, 20, 30 is
+  Options:
+    ✓ A. 20
+      B. 10
+      C. 30
+      D. 15
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 54:
+  Q: The variance of 1, 2, 3 is
+  Options:
+    ✓ A. 2/3
+      B. 1
+      C. 0.67
+      D. 0.5
+  Topic: General
+  Note: CAPS Grade 10: General
+
+Question 55:
+  Q: The standard deviation of 1, 2, 3 is
+  Options:
+    ✓ A. √(2/3)
+      B. 1
+      C. 0.82
+      D. 0.5
+  Topic: Trigonometry
+  Note: CAPS Grade 10: Trigonometry
+
+Question 56:
+  Q: The first quartile of 1, 2, 3, 4, 5 is
+  Options:
+    ✓ A. 2
+      B. 1
+      C. 3
+      D. 4
+  Topic: General
+  Note: CAPS Grade 10: General
+
+Question 57:
+  Q: The third quartile of 1, 2, 3, 4, 5 is
+  Options:
+    ✓ A. 4
+      B. 3
+      C. 5
+      D. 2
+  Topic: General
+  Note: CAPS Grade 10: General
+
+Question 58:
+  Q: The interquartile range of 1, 2, 3, 4, 5 is
+  Options:
+    ✓ A. 2
+      B. 3
+      C. 4
+      D. 1
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 59:
+  Q: The mean of grouped data with classes 1-10 (f=5), 11-20 (f=3) is
+  Options:
+    ✓ A. 10.5
+      B. 12
+      C. 9.5
+      D. 11
+  Topic: Statistics
+  Note: CAPS Grade 10: Statistics
+
+Question 60:
+  Q: The probability of rolling a 6 on a die is
+  Options:
+    ✓ A. 1/6
+      B. 1/2
+      C. 1/3
+      D. 1
+  Topic: Statistics
+  Note: CAPS Grade 10: Statistics
+
+Question 61:
+  Q: The probability of drawing a red card from a deck is
+  Options:
+    ✓ A. 1/2
+      B. 1/4
+      C. 1/3
+      D. 1/13
+  Topic: Statistics
+  Note: CAPS Grade 10: Statistics
+
+Question 62:
+  Q: The number of ways to arrange 3 items is
+  Options:
+    ✓ A. 6
+      B. 3
+      C. 9
+      D. 1
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 63:
+  Q: Analytical Geometry (16-30) 16. The midpoint of (1, 2) and (3, 4) is
+  Options:
+    ✓ A. (2, 3)
+      B. (1, 3)
+      C. (3, 2)
+      D. (4,
+  Topic: Analytical Geometry
+  Note: CAPS Grade 10: Analytical Geometry
+
+Question 64:
+  Q: The distance between (0, 0) and (3, 4) is
+  Options:
+    ✓ A. 5
+      B. 7
+      C. 3
+      D. 4
+  Topic: Trigonometry
+  Note: CAPS Grade 10: Trigonometry
+
+Question 65:
+  Q: The gradient between (1, 1) and (2, 3) is
+  Options:
+    ✓ A. 2
+      B. 1
+      C. 3
+      D. 0
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 66:
+  Q: The equation of the line through (0, 0) with gradient 2 is
+  Options:
+    ✓ A. y = 2x
+      B. y = x + 2
+      C. y = 2x + 1
+      D. y
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 67:
+  Q: The x-intercept of y = 2x - 4 is
+  Options:
+    ✓ A. (2, 0)
+      B. (0, -4)
+      C. (4, 0)
+      D. (0,
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 68:
+  Q: The y-intercept of y = -3x + 6 is
+  Options:
+    ✓ A. (0, 6)
+      B. (2, 0)
+      C. (0, -6)
+      D. (-2,
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 69:
+  Q: The line parallel to y = x is
+  Options:
+    ✓ A. y = x + 1
+      B. y = -x
+      C. y = 2
+      D. x
+  Topic: Geometry
+  Note: CAPS Grade 10: Geometry
+
+Question 70:
+  Q: The line perpendicular to y = 2x is
+  Options:
+    ✓ A. y = -1/2 x
+      B. y = 2x + 1
+      C. y = 1/2 x
+      D. y
+  Topic: Geometry
+  Note: CAPS Grade 10: Geometry
+
+Question 71:
+  Q: The centre of the circle (x - 1)^2 + (y - 2)^2 = 9 is
+  Options:
+    ✓ A. (1, 2)
+      B. (2, 1)
+      C. (0, 0)
+      D. (3,
+  Topic: Geometry
+  Note: CAPS Grade 10: Geometry
+
+Question 72:
+  Q: The radius of the circle (x - 3)^2 + (y + 4)^2 = 16 is
+  Options:
+    ✓ A. 4
+      B. 16
+      C. 2
+      D. 8
+  Topic: Geometry
+  Note: CAPS Grade 10: Geometry
+
+Question 73:
+  Q: The equation of the circle with centre (0, 0) and radius 5 is
+  Options:
+    ✓ A. x^2 + y^2 = 25
+      B. x^2 + y^2 = 5
+      C. x^2 + y^2 = 10
+      D. x^2
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 74:
+  Q: The point (3, 4) lies on the circle x^2 + y^2 = 25 because
+  Options:
+    ✓ A. 9 + 16 = 25
+      B. 9 + 16 = 50
+      C. 3 + 4 = 7
+      D. 3
+  Topic: Algebra
+  Note: CAPS Grade 10: Algebra
+
+Question 75:
+  Q: The distance formula is
+  Options:
+    ✓ A. √((x2 - x1)^2 + (y2 - y1)^2)
+      B. (x2 - x1) + (y2 - y1)
+      C. (x2 - x1)^2 + (y2 - y1)^2
+      D. √((x2
+  Topic: Trigonometry
+  Note: CAPS Grade 10: Trigonometry
+
+Question 76:
+  Q: The midpoint formula is
+  Options:
+    ✓ A. ((x1 + x2)/2, (y1 + y2)/2)
+      B. (x1 + x2, y1 + y2)
+      C. ((x1 - x2)/2, (y1 - y2)/2)
+      D. (x1
+  Topic: Analytical Geometry
+  Note: CAPS Grade 10: Analytical Geometry
+
+Question 77:
+  Q: The gradient formula is
+  Options:
+    ✓ A. (y2 - y1)/(x2 - x1)
+      B. (x2 - x1)/(y2 - y1)
+      C. (y2 + y1)/(x2 + x1)
+      D. (y2
+  Topic: Functions
+  Note: CAPS Grade 10: Functions
+
+Question 78:
+  Q: The hypotenuse in a 3-4-5 triangle is
+  Options:
+    ✓ A. 5
+      B. 3
+      C. 4
+      D. 7
+  Topic: Geometry
+  Note: CAPS Grade 10: Geometry
+
+Question 79:
+  Q: The value of sin 90° is
+  Options:
+    ✓ A. 1
+      B. 0
+      C. √3/2
+      D. 1/2
+  Topic: Trigonometry
+  Note: CAPS Grade 10: Trigonometry
+
+Question 80:
+  Q: The value of cos 0° is
+  Options:
+    ✓ A. 1
+      B. 0
+      C. √3/2
+      D. 1/2
+  Topic: Trigonometry
+  Note: CAPS Grade 10: Trigonometry
+
+Question 81:
+  Q: The value of sin 60° is
+  Options:
+    ✓ A. √3/2
+      B. 1/2
+      C. 1
+      D. 0
+  Topic: Trigonometry
+  Note: CAPS Grade 10: Trigonometry
+
+Question 82:
+  Q: Euclidean Geometry (46-60) 46. The sum of interior angles of a triangle is
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 10: Geometry
+
+Question 83:
+  Q: The sum of interior angles of a quadrilateral is
+  Options:
+    ✓ A. 360°
+      B. 180°
+      C. 540°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 10: Geometry
+
+Question 84:
+  Q: The sum of interior angles of a pentagon is
+  Options:
+    ✓ A. 540°
+      B. 360°
+      C. 720°
+      D. 180°
+  Topic: Geometry
+  Note: CAPS Grade 10: Geometry
+
+Question 85:
+  Q: The angle sum formula for an n-sided polygon is
+  Options:
+    ✓ A. (n-2)180°
+      B. n180°
+      C. (n-1)*180°
+      D. (n+2)*180°
+  Topic: Geometry
+  Note: CAPS Grade 10: Geometry
+
+Question 86:
+  Q: In a square, all angles are
+  Options:
+    ✓ A. 90°
+      B. 60°
+      C. 120°
+      D. 45°
+  Topic: Geometry
+  Note: CAPS Grade 10: Geometry
+
+
+============================================================
+GRADE 11 MATHEMATICS QUESTIONS (67 questions)
+============================================================
+
+Question 1:
+  Q: Solve for x: x² - 5x + 6 = 0
+  Options:
+    ✓ A. x = 2, 3
+      B. x = 1, 6
+      C. x = -2, -3
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 2:
+  Q: Solve for x: x² - 4 = 0
+  Options:
+    ✓ A. x = 2, -2
+      B. x = 4, -4
+      C. x = 1, -1
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 3:
+  Q: Solve for x: 2x² + 3x - 2 = 0
+  Options:
+    ✓ A. x = 1, -2
+      B. x = 0.5, -2
+      C. x = 1, 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 4:
+  Q: Solve the inequality: x² - 3x - 4 > 0
+  Options:
+    ✓ A. x < -1 or x > 4
+      B. -1 < x < 4
+      C. x < 4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 5:
+  Q: Factorize: x² - 5x + 6
+  Options:
+    ✓ A. (x - 2)(x - 3)
+      B. (x - 1)(x - 6)
+      C. (x + 2)(x + 3)
+      D. (x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 6:
+  Q: Solve for x: √(x + 1) = 2
+  Options:
+    ✓ A. x = 3
+      B. x = 5
+      C. x = 1
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 7:
+  Q: Solve for x: 3x - 2 = x + 6
+  Options:
+    ✓ A. x = 4
+      B. x = 3
+      C. x = 5
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 8:
+  Q: Solve for x: 4x² = 16
+  Options:
+    ✓ A. x = 2, -2
+      B. x = 4, -4
+      C. x = 1, -1
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 9:
+  Q: Solve the inequality: 2x - 4 < 0
+  Options:
+    ✓ A. x < 2
+      B. x > 2
+      C. x < 4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 10:
+  Q: Factorize: 2x² + 5x + 3
+  Options:
+    ✓ A. (2x + 3)(x + 1)
+      B. (2x + 1)(x + 3)
+      C. (x + 3)(2x + 1)
+      D. (x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 11:
+  Q: Solve for x: x² - 8x + 15 = 0
+  Options:
+    ✓ A. x = 3, 5
+      B. x = 2, 6
+      C. x = 1, 7
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 12:
+  Q: Solve the inequality: x² - 4x + 4 > 0
+  Options:
+    ✓ A. x ≠ 2
+      B. x = 2
+      C. x > 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 13:
+  Q: Solve for x: 5x + 1 = 2x + 10
+  Options:
+    ✓ A. x = 3
+      B. x = 4
+      C. x = 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 14:
+  Q: Factorize: x² - 9
+  Options:
+    ✓ A. (x - 3)(x + 3)
+      B. (x - 3)(x - 3)
+      C. (x + 3)(x + 3)
+      D. (x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 15:
+  Q: Solve for x: 3x² - 12 = 0
+  Options:
+    ✓ A. x = 2, -2
+      B. x = 4, -4
+      C. x = √4, -√4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 16:
+  Q: Solve the inequality: 3x - 6 ≥ 0
+  Options:
+    ✓ A. x ≥ 2
+      B. x ≤ 2
+      C. x > 6
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 17:
+  Q: Solve for x: x² + 2x - 8 = 0
+  Options:
+    ✓ A. x = 2, -4
+      B. x = 1, -8
+      C. x = 4, -2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 18:
+  Q: Factorize: 6x² + 5x - 6
+  Options:
+    ✓ A. (2x - 3)(3x + 2)
+      B. (2x + 3)(3x - 2)
+      C. (6x - 3)(x + 2)
+      D. (6x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 19:
+  Q: Solve for x: x² - 6x + 8 = 0
+  Options:
+    ✓ A. x = 2, 4
+      B. x = 1, 8
+      C. x = 3, 3
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 20:
+  Q: Solve the inequality: x² - 5x + 6 ≤ 0
+  Options:
+    ✓ A. 2 ≤ x ≤ 3
+      B. x ≤ 2 or x ≥ 3
+      C. x < 2 or x > 3
+      D. 3
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 21:
+  Q: Solve for x: 4x - 8 = 0
+  Options:
+    ✓ A. x = 2
+      B. x = 4
+      C. x = 8
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 22:
+  Q: Factorize: x² + 7x + 12
+  Options:
+    ✓ A. (x + 3)(x + 4)
+      B. (x + 2)(x + 6)
+      C. (x + 1)(x + 12)
+      D. (x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 23:
+  Q: Solve for x: x² - 2x - 15 = 0
+  Options:
+    ✓ A. x = 5, -3
+      B. x = 3, -5
+      C. x = 5, 3
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 24:
+  Q: Solve the inequality: 4x + 2 > 10
+  Options:
+    ✓ A. x > 2
+      B. x < 2
+      C. x > 3
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 25:
+  Q: Solve for x: 2x² - 5x + 2 = 0
+  Options:
+    ✓ A. x = 2, 0.5
+      B. x = 1, 2
+      C. x = 0.5, 1
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 26:
+  Q: Factorize: 9x² - 6x + 1
+  Options:
+    ✓ A. (3x - 1)^2
+      B. (3x + 1)^2
+      C. (9x - 1)(x + 1)
+      D. (3x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 27:
+  Q: Solve for x: x² + 4x = 0
+  Options:
+    ✓ A. x = 0, -4
+      B. x = 0, 4
+      C. x = 2, -2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 28:
+  Q: Solve the inequality: x² - 9 < 0
+  Options:
+    ✓ A. -3 < x < 3
+      B. x < -3 or x > 3
+      C. x > -3
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 29:
+  Q: Solve for x: 5x² = 45
+  Options:
+    ✓ A. x = 3, -3
+      B. x = 9, -9
+      C. x = 45/5, -45/5
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 30:
+  Q: The asymptote of y = 1/x is
+  Options:
+    ✓ A. y = 0, x = 0
+      B. y = 1, x = 1
+      C. y = 0, x = 1
+      D. y
+  Topic: Functions
+  Note: CAPS Grade 11: Functions
+
+Question 31:
+  Q: The inverse of f(x) = x + 2 is
+  Options:
+    ✓ A. y = x - 2
+      B. y = -x + 2
+      C. y = x + 2
+      D. y
+  Topic: Functions
+  Note: CAPS Grade 11: Functions
+
+Question 32:
+  Q: The axis of symmetry of y = x² + 2x - 3 is
+  Options:
+    ✓ A. x = -1
+      B. x = 1
+      C. x = 0
+      D. x
+  Topic: Functions
+  Note: CAPS Grade 11: Functions
+
+Question 33:
+  Q: The turning point of y = -x² + 4x - 3 is
+  Options:
+    ✓ A. (2, 1)
+      B. (2, -1)
+      C. (-2, 1)
+      D. (-2,
+  Topic: Functions
+  Note: CAPS Grade 11: Functions
+
+Question 34:
+  Q: The period of y = cos x is
+  Options:
+    ✓ A. 360°
+      B. 180°
+      C. 90°
+      D. 270°
+  Topic: Trigonometry
+  Note: CAPS Grade 11: Trigonometry
+
+Question 35:
+  Q: The amplitude of y = 2 sin x is
+  Options:
+    ✓ A. 2
+      B. 1
+      C. 0
+      D. 3
+  Topic: Trigonometry
+  Note: CAPS Grade 11: Trigonometry
+
+Question 36:
+  Q: The x-intercept of y = 2x - 4 is
+  Options:
+    ✓ A. (2, 0)
+      B. (0, -4)
+      C. (4, 0)
+      D. (0,
+  Topic: Functions
+  Note: CAPS Grade 11: Functions
+
+Question 37:
+  Q: The y-intercept of y = x² + 1 is
+  Options:
+    ✓ A. (0, 1)
+      B. (1, 0)
+      C. (0, 0)
+      D. (1,
+  Topic: Functions
+  Note: CAPS Grade 11: Functions
+
+Question 38:
+  Q: Calculus (46-60) 46. The derivative of y = x^3 is
+  Options:
+    ✓ A. 3x^2
+      B. x^2
+      C. 3x
+      D. 3
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 39:
+  Q: The derivative of y = 5 is
+  Options:
+    ✓ A. 0
+      B. 5
+      C. 1
+      D. -5
+  Topic: Functions
+  Note: CAPS Grade 11: Functions
+
+Question 40:
+  Q: The derivative of y = 4x - 2 is
+  Options:
+    ✓ A. 4
+      B. -2
+      C. 4x
+      D. 2
+  Topic: Functions
+  Note: CAPS Grade 11: Functions
+
+Question 41:
+  Q: The derivative of y = 2x^2 + 3x is
+  Options:
+    ✓ A. 4x + 3
+      B. 2x + 3
+      C. 4x
+      D. 3x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 42:
+  Q: The derivative of y = x^4 - x is
+  Options:
+    ✓ A. 4x^3 - 1
+      B. 4x^3 + 1
+      C. x^3 - 1
+      D. 4x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 43:
+  Q: The gradient at x = 1 for y = x^3 is
+  Options:
+    ✓ A. 3
+      B. 1
+      C. 0
+      D. 4
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 44:
+  Q: The point of inflection for y = x^3 is at
+  Options:
+    ✓ A. x = 0
+      B. x = 1
+      C. x = -1
+      D. No
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 45:
+  Q: The rate of change for y = 2x at x = 2 is
+  Options:
+    ✓ A. 2
+      B. 4
+      C. 0
+      D. 1
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 46:
+  Q: The second derivative of y = x^4 is
+  Options:
+    ✓ A. 12x^2
+      B. 4x^3
+      C. 6x
+      D. 12x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 47:
+  Q: For y = x^2, the second derivative is
+  Options:
+    ✓ A. 2
+      B. x
+      C. 2x
+      D. 0
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 48:
+  Q: The derivative of y = √x is
+  Options:
+    ✓ A. 1/(2√x)
+      B. 2√x
+      C. √x
+      D. 1/√x
+  Topic: Functions
+  Note: CAPS Grade 11: Functions
+
+Question 49:
+  Q: The derivative of y = 1/x^2 is
+  Options:
+    ✓ A. -2/x^3
+      B. 2/x^3
+      C. -2/x
+      D. 2/x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 50:
+  Q: The definite integral from 0 to 1 of x dx is
+  Options:
+    ✓ A. 0.5
+      B. 1
+      C. 0
+      D. 2
+  Topic: Calculus
+  Note: CAPS Grade 11: Calculus
+
+Question 51:
+  Q: The general solution for sin x = 0 is
+  Options:
+    ✓ A. x = n180°
+      B. x = n360°
+      C. x = 90° + n360°
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 52:
+  Q: The period of sin x is
+  Options:
+    ✓ A. 360°
+      B. 180°
+      C. 90°
+      D. 270°
+  Topic: Trigonometry
+  Note: CAPS Grade 11: Trigonometry
+
+Question 53:
+  Q: The amplitude of 2 cos x is
+  Options:
+    ✓ A. 2
+      B. 1
+      C. 0
+      D. 3
+  Topic: Trigonometry
+  Note: CAPS Grade 11: Trigonometry
+
+Question 54:
+  Q: The general solution for cos x = 0.5 is
+  Options:
+    ✓ A. x = 60° + 360°k or x = 300° + 360°k
+      B. x = 30° + 360°k or x = 330° + 360°k
+      C. x = 90° + 360°k
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 11: Algebra
+
+Question 55:
+  Q: The value of sin 120° is
+  Options:
+    ✓ A. √3/2
+      B. 1/2
+      C. -√3/2
+      D. -1/2
+  Topic: Trigonometry
+  Note: CAPS Grade 11: Trigonometry
+
+Question 56:
+  Q: The value of cos 150° is
+  Options:
+    ✓ A. -√3/2
+      B. √3/2
+      C. -1/2
+      D. 1/2
+  Topic: Trigonometry
+  Note: CAPS Grade 11: Trigonometry
+
+Question 57:
+  Q: The value of tan 135° is
+  Options:
+    ✓ A. -1
+      B. 1
+      C. √3
+      D. -√3
+  Topic: Trigonometry
+  Note: CAPS Grade 11: Trigonometry
+
+Question 58:
+  Q: The maximum value of 3 sin x is
+  Options:
+    ✓ A. 3
+      B. 1
+      C. 0
+      D. -3
+  Topic: Trigonometry
+  Note: CAPS Grade 11: Trigonometry
+
+Question 59:
+  Q: The minimum value of cos x - 1 is
+  Options:
+    ✓ A. -2
+      B. -1
+      C. 0
+      D. 1
+  Topic: Trigonometry
+  Note: CAPS Grade 11: Trigonometry
+
+Question 60:
+  Q: The period of tan x is
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 270°
+  Topic: Trigonometry
+  Note: CAPS Grade 11: Trigonometry
+
+Question 61:
+  Q: Geometry (31-60) 31. The sum of interior angles of a triangle is
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 11: Geometry
+
+Question 62:
+  Q: The angle in a semicircle is
+  Options:
+    ✓ A. 90°
+      B. 180°
+      C. 360°
+      D. 45°
+  Topic: Geometry
+  Note: CAPS Grade 11: Geometry
+
+Question 63:
+  Q: Opposite angles in a cyclic quadrilateral sum to
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 11: Geometry
+
+Question 64:
+  Q: The cyclic quadrilateral has opposite angles summing to
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 11: Geometry
+
+Question 65:
+  Q: The angle in a semicircle is
+  Options:
+    ✓ A. 90°
+      B. 180°
+      C. 360°
+      D. 45°
+  Topic: Geometry
+  Note: CAPS Grade 11: Geometry
+
+Question 66:
+  Q: Opposite angles in a cyclic quadrilateral sum to
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 11: Geometry
+
+Question 67:
+  Q: The cyclic quadrilateral has opposite angles summing to
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 270°
+  Topic: Geometry
+  Note: CAPS Grade 11: Geometry
+
+
+============================================================
+GRADE 12 MATHEMATICS QUESTIONS (56 questions)
+============================================================
+
+Question 1:
+  Q: What is the common ratio (r) in the geometric series given in question 2.1
+  Options:
+    ✓ A. r = 1/2
+      B. r = 3
+      C. r = 4
+      D. r
+  Topic: Number Patterns
+  Note: CAPS Grade 12: Number Patterns
+
+Question 2:
+  Q: How many terms should be calculated for the sum of the series in question 2.1.2 if x = 4
+  Options:
+    ✓ A. 15 terms
+      B. 20 terms
+      C. 5 terms
+      D. 10
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 3:
+  Q: What is the equation of the asymptote of the function f(x) = x
+  Options:
+    ✓ A. y = 0
+      B. y = 1
+      C. y = x
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 4:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 2, 4
+      B. x = -2, 2
+      C. x = 0, 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 5:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 1, -1
+      B. x = 2, -2
+      C. x = 1, 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 6:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 1, -1
+      B. x = 2, -2
+      C. x = 0, 1
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 7:
+  Q: Solve for :
+  Options:
+    ✓ A. No solution
+      B. x = 3
+      C. x = 4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 8:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 3
+      B. x = 4
+      C. x = 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 9:
+  Q: Solve the inequality:
+  Options:
+    ✓ A. x ≤ 1 or x ≥ 4
+      B. 1 < x < 4
+      C. x ≤ 4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 10:
+  Q: Determine an ordered pair which satisfies:
+  Options:
+    ✓ A. (0, 4q)
+      B. (2q, 4q)
+      C. (-2q, 4q)
+      D. (q,
+  Topic: Number Patterns
+  Note: CAPS Grade 12: Number Patterns
+
+Question 11:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 2, -2
+      B. x = 5, -5
+      C. x = 2.5, -2.5
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 12:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 5, -1
+      B. x = 6, -4
+      C. x = 5, 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 13:
+  Q: Solve the inequality:
+  Options:
+    ✓ A. x ≤ -4 or x ≥ 2
+      B. -4 ≤ x ≤ 2
+      C. x < -4 or x > 2
+      D. -4
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 14:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 1
+      B. x = 1/3
+      C. x = 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 15:
+  Q: Solve simultaneously: ,
+  Options:
+    ✓ A. (1, 1), (3, 5)
+      B. (2, 3), (1, 1)
+      C. (1, 1), (2, 3)
+      D. (3,
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 16:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 2
+      B. x = 1
+      C. x = 4
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 17:
+  Q: Solve for : ,
+  Options:
+    ✓ A. x = ±1, ±√3
+      B. x = ±1, ±√2
+      C. x = ±2, ±√3
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 18:
+  Q: Solve the inequality:
+  Options:
+    ✓ A. x < -3 or x > 0
+      B. -3 < x < 0
+      C. x < -6 or x > 3
+      D. -6
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 19:
+  Q: Solve simultaneously: ,
+  Options:
+    ✓ A. (1, 2), (-1, 2)
+      B. (2, 3), (-2, 3)
+      C. (1, 1), (-1, 1)
+      D. (2,
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 20:
+  Q: For which m is x + y a factor of mx + my
+  Options:
+    ✓ A. m = 1
+      B. m = 0
+      C. m = -1
+      D. m
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 21:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 0, -2
+      B. x = 0, 2
+      C. x = -2, -1
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 22:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 4, 1
+      B. x = 5, 2
+      C. x = 4, 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 23:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 2, 1/3
+      B. x = 2, -1/3
+      C. x = 1, 2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 24:
+  Q: Solve the inequality:
+  Options:
+    ✓ A. x < -1 or x > 1
+      B. -1 < x < 1
+      C. x < 1 or x > -1
+      D. -1
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 25:
+  Q: Solve for :
+  Options:
+    ✓ A. x = 1, 2
+      B. x = -1, 2
+      C. x = 1, -2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 26:
+  Q: What is for
+  Options:
+    ✓ A. 3x^2 - 3
+      B. 3x^2 + 3
+      C. x^2 - 3
+      D. 3x
+  Topic: General
+  Note: CAPS Grade 12: General
+
+Question 27:
+  Q: What is for
+  Options:
+    ✓ A. 10t - 7
+      B. 10t + 7
+      C. 5t - 7
+      D. 5t
+  Topic: General
+  Note: CAPS Grade 12: General
+
+Question 28:
+  Q: What are the coordinates of the turning points of
+  Options:
+    ✓ A. (-1, 0), (1, -4)
+      B. (0, -2), (1, -4)
+      C. (-1, 0), (0, -2)
+      D. (1,
+  Topic: Analytical Geometry
+  Note: CAPS Grade 12: Analytical Geometry
+
+Question 29:
+  Q: What are the coordinates of the turning points of
+  Options:
+    ✓ A. (0, 3)
+      B. (0, 6)
+      C. No turning points
+      D. (±1,
+  Topic: Analytical Geometry
+  Note: CAPS Grade 12: Analytical Geometry
+
+Question 30:
+  Q: At what time is the inflow equal to the outflow for
+  Options:
+    ✓ A. t = 2
+      B. t = 4
+      C. t = 0
+      D. No
+  Topic: General
+  Note: CAPS Grade 12: General
+
+Question 31:
+  Q: Using first principles, what is the derivative of
+  Options:
+    ✓ A. 4x - 1
+      B. 4x + 1
+      C. 2x - 1
+      D. 4x
+  Topic: Trigonometry
+  Note: CAPS Grade 12: Trigonometry
+
+Question 32:
+  Q: For , what is the gradient of the tangent at x = 2
+  Options:
+    ✓ A. 0
+      B. -4
+      C. 4
+      D. -2
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 33:
+  Q: Given and , what are the coordinates of B
+  Options:
+    ✓ A. (0, 12)
+      B. (0, 24)
+      C. (2, 12)
+      D. (0,
+  Topic: Analytical Geometry
+  Note: CAPS Grade 12: Analytical Geometry
+
+Question 34:
+  Q: For a cylindrical can with volume 340 ml, what is the height in terms of radius
+  Options:
+    ✓ A. h = 340 / (π r^2)
+      B. h = 2 × 340 / (π r^2)
+      C. h = 340 r
+      D. h
+  Topic: Geometry
+  Note: CAPS Grade 12: Geometry
+
+Question 35:
+  Q: The surface area . What is the expression for S in terms of r
+  Options:
+    ✓ A. S = 2π r (340 / (π r^2)) + 2π r^2
+      B. S = 340 / r + 2π r^2
+      C. S = 680 / r + 2π r^2
+      D. S
+  Topic: Geometry
+  Note: CAPS Grade 12: Geometry
+
+Question 36:
+  Q: What is the value of r that minimizes S
+  Options:
+    ✓ A. r = (340 / π)^{1/3}
+      B. r = (680 / π)^{1/3}
+      C. r = (340 / 2π)^{1/3}
+      D. r
+  Topic: General
+  Note: CAPS Grade 12: General
+
+Question 37:
+  Q: What is the minimum S
+  Options:
+    ✓ A. 3 (680π / 2)^{2/3}
+      B. 3 (680π)^{2/3}
+      C. 2 (340π)^{2/3}
+      D. 4
+  Topic: General
+  Note: CAPS Grade 12: General
+
+Question 38:
+  Q: What is the ratio r : h for the minimum S
+  Options:
+    ✓ A. 1 : 2
+      B. 1 : 1
+      C. 2 : 1
+      D. 1
+  Topic: General
+  Note: CAPS Grade 12: General
+
+Question 39:
+  Q: What is the general solution of the equation 2sin x cos x cos 2x = 0
+  Options:
+    ✓ A. x = nπ/3
+      B. x = nπ/4
+      C. x = nπ or x = (2n+1)π/2
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 40:
+  Q: Determine the size of ∠ADC in terms of θ
+  Options:
+    ✓ A. θ
+      B. 180° – θ
+      C. 90° – θ/2
+      D. 180°
+  Topic: Number Patterns
+  Note: CAPS Grade 12: Number Patterns
+
+Question 41:
+  Q: Determine the value of θ if a = 3 and b = 2 (rounded to two decimal places)
+  Options:
+    ✓ A. 30.00°
+      B. 45.00°
+      C. 60.00°
+      D. 90.00°
+  Topic: Number Patterns
+  Note: CAPS Grade 12: Number Patterns
+
+Question 42:
+  Q: Write down the period of f(x) = sin²x for x ∈ [-90°, 90°]
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 45°
+  Topic: Trigonometry
+  Note: CAPS Grade 12: Trigonometry
+
+Question 43:
+  Q: Solve the equation: cos(x – 15°) = 2 sin x for x ∈ [-90°, 90°]
+  Options:
+    ✓ A. x = 15°, 75°
+      B. x = 30°, 60°
+      C. x = 45°, 90°
+      D. x
+  Topic: Algebra
+  Note: CAPS Grade 12: Algebra
+
+Question 44:
+  Q: Find the values of x for which f(x) < g(x), where f(x) = sin²x and g(x) = cos(x – 15°)
+  Options:
+    ✓ A. -90° < x < 15°
+      B. 15° < x < 75°
+      C. 75° < x < 90°
+      D. -90°
+  Topic: Trigonometry
+  Note: CAPS Grade 12: Trigonometry
+
+Question 45:
+  Q: For which value(s) of x ∈ [0°, 360°] is the expression in 36 undefined
+  Options:
+    ✓ A. x = 90°, 270°
+      B. x = 0°, 180°
+      C. x = 45°, 135°
+      D. x
+  Topic: General
+  Note: CAPS Grade 12: General
+
+Question 46:
+  Q: Determine the period of g(x) = sin(x + 30°) for x ∈ [-90°, 180°]
+  Options:
+    ✓ A. 180°
+      B. 360°
+      C. 90°
+      D. 45°
+  Topic: Trigonometry
+  Note: CAPS Grade 12: Trigonometry
+
+Question 47:
+  Q: Calculate the x-coordinates of P and Q, the points where f(x) = -2 cos x and g(x) = sin(x + 30°) intersect
+  Options:
+    ✓ A. P: -60°, Q: 60°
+      B. P: -30°, Q: 30°
+      C. P: 0°, Q: 90°
+      D. P:
+  Topic: Trigonometry
+  Note: CAPS Grade 12: Trigonometry
+
+Question 48:
+  Q: Determine the x-values, x ∈ [-90°, 180°], for which g(x) ≤ f(x)
+  Options:
+    ✓ A. -90° ≤ x ≤ -30°
+      B. -30° ≤ x ≤ 30°
+      C. 30° ≤ x ≤ 90°
+      D. -90°
+  Topic: Number Patterns
+  Note: CAPS Grade 12: Number Patterns
+
+Question 49:
+  Q: If sin 31° = p, determine sin 149° in terms of p
+  Options:
+    ✓ A. p
+      B. -p
+      C. √(1 – p²)
+      D. p
+  Topic: Trigonometry
+  Note: CAPS Grade 12: Trigonometry
+
+Question 50:
+  Q: Determine cos(-59°) in terms of p
+  Options:
+    ✓ A. p
+      B. -p
+      C. √(1 – p²)
+      D. p
+  Topic: Trigonometry
+  Note: CAPS Grade 12: Trigonometry
+
+Question 51:
+  Q: Determine cos 62° in terms of p
+  Options:
+    ✓ A. p
+      B. -p
+      C. √(1 – p²)
+      D. p
+  Topic: Trigonometry
+  Note: CAPS Grade 12: Trigonometry
+
+Question 52:
+  Q: Determine the values of x for which the identity in 49 is undefined
+  Options:
+    ✓ A. x = 180°, 360°
+      B. x = 90°, 270°
+      C. x = 0°, 180°
+      D. x
+  Topic: Number Patterns
+  Note: CAPS Grade 12: Number Patterns
+
+Question 53:
+  Q: Determine the general solution of sin(x + 30°) = cos 3x
+  Options:
+    ✓ A. x = 30° + 360°k or x = 150° + 360°k
+      B. x = 0° + 360°k or x = 90° + 360°k
+      C. x = 15° + 360°k or x = 75° + 360°k
+      D. x
+  Topic: Trigonometry
+  Note: CAPS Grade 12: Trigonometry
+
+Question 54:
+  Q: Write down the period of g(x) = cos 3x
+  Options:
+    ✓ A. 90°
+      B. 120°
+      C. 180°
+      D. 360°
+  Topic: Trigonometry
+  Note: CAPS Grade 12: Trigonometry
+
+Question 55:
+  Q: Determine the values of x ∈ (-30°, 150°) for which f(x) ≥ g(x)
+  Options:
+    ✓ A. -30° < x < 30°
+      B. 30° < x < 90°
+      C. 90° < x < 150°
+      D. -30°
+  Topic: Number Patterns
+  Note: CAPS Grade 12: Number Patterns
+
+Question 56:
+  Q: Determine the size of ∠ADC in terms of θ
+  Options:
+    ✓ A. θ
+      B. 180° – θ
+      C. 90° – θ/2
+      D. 180°
+  Topic: Number Patterns
+  Note: CAPS Grade 12: Number Patterns
+
