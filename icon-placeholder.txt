@@ -20,3 +20,5 @@ For now, the app will work without icons, but icons are required for:
 - Splash screens
 - App store listings
 
+
+

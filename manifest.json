@@ -2,8 +2,8 @@
   "name": "ZA Mzansi Learn & Play - CAPS Educational Gaming Platform",
   "short_name": "Mzansi Learn",
   "description": "Interactive CAPS-aligned educational gaming platform with multiple game modes",
-  "start_url": "/CAPS-TYCOON/",
-  "scope": "/CAPS-TYCOON/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#f5f5f0",
   "theme_color": "#22c55e",
@@ -49,4 +49,6 @@
     }
   ]
 }
+
+
 

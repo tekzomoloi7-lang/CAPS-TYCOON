@@ -1,11 +1,11 @@
 // Service Worker for ZA Mzansi Learn & Play PWA
 const CACHE_NAME = 'mzansi-learn-play-v1';
 const urlsToCache = [
-  '/CAPS-TYCOON/',
-  '/CAPS-TYCOON/caps-tycoon.html',
-  '/CAPS-TYCOON/manifest.json',
-  '/CAPS-TYCOON/icon-192.png',
-  '/CAPS-TYCOON/icon-512.png',
+  '/',
+  '/caps-tycoon.html',
+  '/manifest.json',
+  '/icon-192.png',
+  '/icon-512.png',
   'https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js',
   'https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js',
   'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js',
@@ -86,10 +86,12 @@ self.addEventListener('fetch', (event) => {
         }).catch(() => {
           // If fetch fails, return offline page if available
           if (event.request.destination === 'document') {
-            return caches.match('/CAPS-TYCOON/caps-tycoon.html');
+            return caches.match('/caps-tycoon.html');
           }
         });
       })
   );
 });
+
+
 
