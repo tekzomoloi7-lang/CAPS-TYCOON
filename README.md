@@ -54,16 +54,38 @@ This app is a Progressive Web App (PWA) that can be:
 ## 🌐 Deployment
 
 This app can be deployed to:
+- **Vercel** (Recommended - Free tier with automatic deployments) ⭐
 - **GitHub Pages** (Free, easy setup)
 - **Netlify** (Free tier available)
-- **Vercel** (Free tier available)
 - **Firebase Hosting** (Free tier available)
 - Any static hosting service
+
+### Deploy to Vercel (Recommended)
+
+**Automatic Deployment Setup:**
+1. Visit [vercel.com](https://vercel.com) and sign in with GitHub
+2. Click "Add New..." → "Project"
+3. Import repository: `tekzomoloi7-lang/CAPS-TYCOON`
+4. Configure:
+   - Framework Preset: Other
+   - Root Directory: `./`
+   - Build Command: (leave empty)
+   - Output Directory: `./`
+5. Click "Deploy"
+
+**Result:**
+- ✅ Automatic deployments on every `git push`
+- ✅ Preview deployments for pull requests
+- ✅ Free SSL certificate
+- ✅ Global CDN
+- ✅ Custom domain support
+
+See [VERCEL_AUTO_DEPLOY.md](VERCEL_AUTO_DEPLOY.md) for detailed setup instructions.
 
 ### Deploy to GitHub Pages
 
 1. Go to repository Settings → Pages
-2. Select branch: `main`
+2. Select branch: `master`
 3. Select folder: `/ (root)`
 4. Your app will be live at: `https://tekzomoloi7-lang.github.io/CAPS-TYCOON/`
 
@@ -89,6 +111,12 @@ Teachers/hosts can access detailed analytics after each game:
 - **Beautiful Animations** - Engaging particle effects and transitions
 - **Real-time Updates** - Live leaderboards and player stats
 - **Accessible** - Proper touch targets and readable text
+- **Achievement System** - Unlock badges and track progress
+- **XP & Leveling** - Gain experience points and level up
+- **Daily Rewards** - Claim daily login rewards with streak bonuses
+- **Player Statistics** - Track your performance and game history
+- **Themes** - Customize the app appearance
+- **Social Sharing** - Share your achievements and results
 
 ## 📝 Firebase Setup
 
@@ -112,6 +140,8 @@ Created for ZA Mzansi Learn & Play educational platform
 ---
 
 **Made with ❤️ for South African Learners**
+
+
 
 
 
