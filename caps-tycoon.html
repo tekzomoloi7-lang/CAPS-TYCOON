@@ -2719,6 +2719,25 @@
 
             <div id="hostSettings">
                 <div class="settings-group">
+                    <label class="settings-label">Grade</label>
+                    <select class="settings-input" id="hostGradeSelect">
+                        <option value="8">Grade 8</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                    </select>
+                </div>
+
+                <div class="settings-group">
+                    <label class="settings-label">Subject</label>
+                    <select class="settings-input" id="hostSubjectSelect">
+                        <option value="mathematics">Mathematics</option>
+                        <option value="physicalSciences">Physical Sciences</option>
+                    </select>
+                </div>
+
+                <div class="settings-group">
                     <label class="settings-label">Game Type</label>
                     <select class="settings-input" id="gameTypeSelect">
                         <option value="tycoon">🏗️ CAPS Tycoon</option>
@@ -5377,6 +5396,9 @@
         let currentSubject = 'physicalSciences';
         let currentGameMode = 'tycoon'; // Default game mode
         let shuffledAnswers = []; // Store shuffled answers for current question
+        // Host game settings (used in multiplayer mode)
+        let hostGameGrade = null;
+        let hostGameSubject = null;
         let shuffledCorrectIndex = 0; // Track correct answer index after shuffling
 
         // NEW: Ubuntu Summit Race Game State
@@ -5733,6 +5755,10 @@
 
                 const allowLateJoin = document.getElementById('allowLateJoin') ? document.getElementById('allowLateJoin').checked : false;
                 
+                // Get grade and subject from host settings
+                const hostGrade = parseInt(document.getElementById('hostGradeSelect').value);
+                const hostSubject = document.getElementById('hostSubjectSelect').value;
+                
                 const gameState = {
                     gameType: gameType,
                     mode: gameType === 'tycoon' ? gameMode : (gameType === 'summit' ? summitMode : kelpMode),
@@ -5743,6 +5769,8 @@
                     targetHeight: (gameType === 'summit' && summitMode === 'race') ? summitTargetHeight : null,
                     targetHaul: (gameType === 'kelp' && kelpMode === 'race') ? kelpTargetHaul : null,
                     allowLateJoin: allowLateJoin,
+                    grade: hostGrade,
+                    subject: hostSubject,
                     started: false,
                     createdAt: Date.now()
                 };
@@ -6419,6 +6447,16 @@
                         }
                         await playerRef.set(playerData);
 
+                        // Load host's grade and subject settings
+                        if (gameState.grade) {
+                            hostGameGrade = gameState.grade;
+                            selectedGrade = gameState.grade;
+                        }
+                        if (gameState.subject) {
+                            hostGameSubject = gameState.subject;
+                            currentSubject = gameState.subject;
+                        }
+
                         // Set up listeners FIRST before checking game state
                         setupPlayerListeners();
                         isOnline = true;
@@ -6446,9 +6484,7 @@
                                 }
                             }
                             
-                            // Auto-start the correct game mode
-                            if (!selectedGrade) selectedGrade = 8;
-                            if (!currentSubject) currentSubject = 'physicalSciences';
+                            // Use host's grade and subject (already loaded above)
                             startMultiplayerGame();
                         } else {
                             // Game not started yet, show waiting room
@@ -6509,6 +6545,16 @@
                 }
                 localRoomManager.addPlayer(roomCode, playerId, localPlayerData);
 
+                // Load host's grade and subject settings
+                if (gameState.grade) {
+                    hostGameGrade = gameState.grade;
+                    selectedGrade = gameState.grade;
+                }
+                if (gameState.subject) {
+                    hostGameSubject = gameState.subject;
+                    currentSubject = gameState.subject;
+                }
+
                 // Set up local listeners FIRST before checking game state
                 setupLocalPlayerListeners();
                 isOnline = true;
@@ -6531,9 +6577,7 @@
                         }
                     }
                     
-                    // Auto-start the correct game mode
-                    if (!selectedGrade) selectedGrade = 8;
-                    if (!currentSubject) currentSubject = 'physicalSciences';
+                    // Use host's grade and subject (already loaded above)
                     startMultiplayerGame();
                 } else {
                     // Game not started yet, show waiting room
@@ -6555,6 +6599,16 @@
             console.log('handleGameStart called, starting game for player');
             gameStarted = true;
             gameStartTime = state.startTime || Date.now();
+            
+            // Load host's grade and subject settings
+            if (state.grade) {
+                hostGameGrade = state.grade;
+                selectedGrade = state.grade; // Use host's grade
+            }
+            if (state.subject) {
+                hostGameSubject = state.subject;
+                currentSubject = state.subject; // Use host's subject
+            }
             
             // Hide waiting room and all other screens
             const waitingRoomScreen = document.getElementById('waitingRoomScreen');
@@ -6639,6 +6693,16 @@
                             }
                         }
                         
+                        // Update host's grade and subject settings
+                        if (state.grade) {
+                            hostGameGrade = state.grade;
+                            selectedGrade = state.grade;
+                        }
+                        if (state.subject) {
+                            hostGameSubject = state.subject;
+                            currentSubject = state.subject;
+                        }
+                        
                         if (state && state.started && !gameStarted) {
                             console.log('Player: Game started detected via listener!');
                             handleGameStart(state);
@@ -6694,6 +6758,16 @@
                             kelpGameTimer = gameState.timeLimit || 600;
                             kelpTargetHaul = gameState.targetHaul || 50;
                         }
+                    }
+                    
+                    // Update host's grade and subject settings
+                    if (gameState.grade) {
+                        hostGameGrade = gameState.grade;
+                        selectedGrade = gameState.grade;
+                    }
+                    if (gameState.subject) {
+                        hostGameSubject = gameState.subject;
+                        currentSubject = gameState.subject;
                     }
                     
                     if (gameState && gameState.started && !gameStarted) {
@@ -7467,7 +7541,10 @@
         function selectGameMode(modeKey) {
             currentGameMode = modeKey;
             document.getElementById('gameModeScreen').style.display = 'none';
-            startGame();
+            // For solo play, ensure we're not in host/online mode
+            isOnline = false;
+            isHost = false;
+            startGameMode();
         }
 
         function startGameMode() {
@@ -8017,8 +8094,12 @@
                 return;
             }
             
+            // Use host's grade and subject in multiplayer mode, otherwise use player's selection
+            const subjectToUse = (isOnline && hostGameSubject) ? hostGameSubject : currentSubject;
+            const gradeToUse = (isOnline && hostGameGrade) ? hostGameGrade : (selectedGrade || 10);
+            
             // Get questions filtered by grade
-            const questions = getQuestionsForGrade(currentSubject, selectedGrade || 10);
+            const questions = getQuestionsForGrade(subjectToUse, gradeToUse);
             if (!questions || questions.length === 0) {
                 console.error('No questions available for', currentSubject, 'Grade', selectedGrade);
                 // Fallback to default
@@ -11153,7 +11234,11 @@
         
         // NEW: Show question for hooked fish
         function showKelpFishQuestion(fish, difficulty) {
-            const questions = getQuestionsForGrade(currentSubject, selectedGrade || 10);
+            // Use host's grade and subject in multiplayer mode, otherwise use player's selection
+            const subjectToUse = (isOnline && hostGameSubject) ? hostGameSubject : currentSubject;
+            const gradeToUse = (isOnline && hostGameGrade) ? hostGameGrade : (selectedGrade || 10);
+            
+            const questions = getQuestionsForGrade(subjectToUse, gradeToUse);
             if (!questions || questions.length === 0) {
                 console.error('No questions available');
                 return;
