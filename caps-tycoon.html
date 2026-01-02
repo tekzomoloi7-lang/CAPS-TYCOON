@@ -2534,76 +2534,135 @@
             }
         }
         
-        /* Kelp Arrow Controls */
-        #kelpArrowControls {
+        /* Kelp Virtual D-Pad Controls (Modern Mobile Game Style) */
+        #kelpDpadContainer {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
+            width: 160px;
+            height: 160px;
             z-index: 1000;
+            display: none;
         }
         
-        .kelp-arrow-btn {
-            width: 50px;
-            height: 50px;
-            background: rgba(59, 130, 246, 0.9);
-            color: white;
+        .kelp-dpad {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 50%;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 4px;
+            padding: 12px;
+            box-sizing: border-box;
+        }
+        
+        .kelp-dpad-btn {
+            background: rgba(255, 255, 255, 0.9);
             border: none;
             border-radius: 12px;
-            font-size: 24px;
-            font-weight: bold;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-            transition: all 0.2s;
+            font-size: 20px;
+            font-weight: bold;
+            color: #1f2937;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.15s ease;
             user-select: none;
             -webkit-user-select: none;
             touch-action: manipulation;
+            -webkit-tap-highlight-color: transparent;
         }
         
-        .kelp-arrow-btn:active {
-            background: rgba(37, 99, 235, 1);
-            transform: scale(0.9);
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+        .kelp-dpad-btn:active,
+        .kelp-dpad-btn.active {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            transform: scale(0.95);
+            box-shadow: 0 4px 16px rgba(59, 130, 246, 0.5);
         }
         
-        .kelp-arrow-btn.active {
-            background: rgba(37, 99, 235, 1);
+        .kelp-dpad-btn.empty {
+            background: transparent;
+            box-shadow: none;
+            cursor: default;
+            pointer-events: none;
         }
         
-        #kelpArrowUp {
+        .kelp-dpad-btn.empty:active,
+        .kelp-dpad-btn.empty.active {
+            background: transparent;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        #kelpDpadUp {
             grid-column: 2;
+            grid-row: 1;
         }
         
-        #kelpArrowLeft {
+        #kelpDpadLeft {
             grid-column: 1;
             grid-row: 2;
         }
         
-        #kelpArrowDown {
+        #kelpDpadCenter {
             grid-column: 2;
             grid-row: 2;
         }
         
-        #kelpArrowRight {
+        #kelpDpadDown {
+            grid-column: 2;
+            grid-row: 3;
+        }
+        
+        #kelpDpadRight {
             grid-column: 3;
             grid-row: 2;
         }
         
         @media (max-width: 768px) {
-            #kelpArrowControls {
-                bottom: 120px;
-                right: 10px;
+            #kelpDpadContainer {
+                bottom: 100px;
+                right: 15px;
+                width: 140px;
+                height: 140px;
             }
             
-            .kelp-arrow-btn {
-                width: 45px;
-                height: 45px;
-                font-size: 20px;
+            .kelp-dpad {
+                padding: 10px;
+                gap: 3px;
+            }
+            
+            .kelp-dpad-btn {
+                font-size: 18px;
+                border-radius: 10px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            #kelpDpadContainer {
+                bottom: 90px;
+                right: 10px;
+                width: 130px;
+                height: 130px;
+            }
+            
+            .kelp-dpad {
+                padding: 8px;
+                gap: 2px;
+            }
+            
+            .kelp-dpad-btn {
+                font-size: 16px;
+                border-radius: 8px;
             }
         }
         
@@ -3196,12 +3255,19 @@
             <div id="kelpActivityFeed"></div>
         </div>
 
-        <!-- Arrow Controls for Boat Navigation -->
-        <div id="kelpArrowControls" style="display: none;">
-            <button class="kelp-arrow-btn" id="kelpArrowW" onmousedown="kelpArrowDown('w')" ontouchstart="kelpArrowDown('w'); return false;" onmouseup="kelpArrowUp('w')" ontouchend="kelpArrowUp('w')">↑</button>
-            <button class="kelp-arrow-btn" id="kelpArrowA" onmousedown="kelpArrowDown('a')" ontouchstart="kelpArrowDown('a'); return false;" onmouseup="kelpArrowUp('a')" ontouchend="kelpArrowUp('a')">←</button>
-            <button class="kelp-arrow-btn" id="kelpArrowS" onmousedown="kelpArrowDown('s')" ontouchstart="kelpArrowDown('s'); return false;" onmouseup="kelpArrowUp('s')" ontouchend="kelpArrowUp('s')">↓</button>
-            <button class="kelp-arrow-btn" id="kelpArrowD" onmousedown="kelpArrowDown('d')" ontouchstart="kelpArrowDown('d'); return false;" onmouseup="kelpArrowUp('d')" ontouchend="kelpArrowUp('d')">→</button>
+        <!-- Virtual D-Pad Controls for Boat Navigation (Modern Mobile Game Style) -->
+        <div id="kelpDpadContainer">
+            <div class="kelp-dpad">
+                <button class="kelp-dpad-btn empty" aria-label="Empty"></button>
+                <button class="kelp-dpad-btn" id="kelpDpadUp" onmousedown="kelpArrowDown('w')" ontouchstart="kelpArrowDown('w'); event.preventDefault();" onmouseup="kelpArrowUp('w')" ontouchend="kelpArrowUp('w'); event.preventDefault();" aria-label="Up">▲</button>
+                <button class="kelp-dpad-btn empty" aria-label="Empty"></button>
+                <button class="kelp-dpad-btn" id="kelpDpadLeft" onmousedown="kelpArrowDown('a')" ontouchstart="kelpArrowDown('a'); event.preventDefault();" onmouseup="kelpArrowUp('a')" ontouchend="kelpArrowUp('a'); event.preventDefault();" aria-label="Left">◄</button>
+                <button class="kelp-dpad-btn empty" id="kelpDpadCenter" aria-label="Center"></button>
+                <button class="kelp-dpad-btn" id="kelpDpadRight" onmousedown="kelpArrowDown('d')" ontouchstart="kelpArrowDown('d'); event.preventDefault();" onmouseup="kelpArrowUp('d')" ontouchend="kelpArrowUp('d'); event.preventDefault();" aria-label="Right">►</button>
+                <button class="kelp-dpad-btn empty" aria-label="Empty"></button>
+                <button class="kelp-dpad-btn" id="kelpDpadDown" onmousedown="kelpArrowDown('s')" ontouchstart="kelpArrowDown('s'); event.preventDefault();" onmouseup="kelpArrowUp('s')" ontouchend="kelpArrowUp('s'); event.preventDefault();" aria-label="Down">▼</button>
+                <button class="kelp-dpad-btn empty" aria-label="Empty"></button>
+            </div>
         </div>
 
         <!-- Touch Joystick (Mobile) -->
@@ -8278,11 +8344,18 @@
             document.getElementById('kelpCanvasContainer').style.display = 'block';
         }
         
-        // Arrow button functions for Kelp Quest navigation
+        // Virtual D-Pad button functions for Kelp Quest navigation
         function kelpArrowDown(key) {
             if (gameType === 'kelp') {
                 kelpKeys[key] = true;
-                const btnId = 'kelpArrow' + key.toUpperCase();
+                // Map keys to D-pad button IDs
+                const keyMap = {
+                    'w': 'kelpDpadUp',
+                    'a': 'kelpDpadLeft',
+                    's': 'kelpDpadDown',
+                    'd': 'kelpDpadRight'
+                };
+                const btnId = keyMap[key];
                 const btn = document.getElementById(btnId);
                 if (btn) btn.classList.add('active');
             }
@@ -8291,7 +8364,14 @@
         function kelpArrowUp(key) {
             if (gameType === 'kelp') {
                 kelpKeys[key] = false;
-                const btnId = 'kelpArrow' + key.toUpperCase();
+                // Map keys to D-pad button IDs
+                const keyMap = {
+                    'w': 'kelpDpadUp',
+                    'a': 'kelpDpadLeft',
+                    's': 'kelpDpadDown',
+                    'd': 'kelpDpadRight'
+                };
+                const btnId = keyMap[key];
                 const btn = document.getElementById(btnId);
                 if (btn) btn.classList.remove('active');
             }
@@ -10009,10 +10089,10 @@
             // Reset kelp keys
             kelpKeys = {};
             
-            // Show arrow controls
-            const arrowControls = document.getElementById('kelpArrowControls');
-            if (arrowControls) {
-                arrowControls.style.display = 'grid';
+            // Show virtual D-pad controls
+            const dpadContainer = document.getElementById('kelpDpadContainer');
+            if (dpadContainer) {
+                dpadContainer.style.display = 'block';
             }
             
             kelpCanvas = new p5(kelpSketch, document.getElementById('kelpCanvas'));
