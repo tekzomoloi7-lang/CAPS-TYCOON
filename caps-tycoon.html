@@ -2534,6 +2534,79 @@
             }
         }
         
+        /* Kelp Arrow Controls */
+        #kelpArrowControls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            z-index: 1000;
+        }
+        
+        .kelp-arrow-btn {
+            width: 50px;
+            height: 50px;
+            background: rgba(59, 130, 246, 0.9);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: all 0.2s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+        
+        .kelp-arrow-btn:active {
+            background: rgba(37, 99, 235, 1);
+            transform: scale(0.9);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+        }
+        
+        .kelp-arrow-btn.active {
+            background: rgba(37, 99, 235, 1);
+        }
+        
+        #kelpArrowUp {
+            grid-column: 2;
+        }
+        
+        #kelpArrowLeft {
+            grid-column: 1;
+            grid-row: 2;
+        }
+        
+        #kelpArrowDown {
+            grid-column: 2;
+            grid-row: 2;
+        }
+        
+        #kelpArrowRight {
+            grid-column: 3;
+            grid-row: 2;
+        }
+        
+        @media (max-width: 768px) {
+            #kelpArrowControls {
+                bottom: 120px;
+                right: 10px;
+            }
+            
+            .kelp-arrow-btn {
+                width: 45px;
+                height: 45px;
+                font-size: 20px;
+            }
+        }
+        
         /* Modal Responsive Fixes */
         .question-detail-modal,
         .analytics-modal {
@@ -3119,6 +3192,14 @@
         <div id="kelpActivityFeedContainer" style="position: fixed; top: 20px; right: 20px; width: 300px; max-width: 90vw; background: rgba(255,255,255,0.95); border-radius: 12px; padding: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); z-index: 1500; max-height: 200px; overflow-y: auto; display: none;">
             <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 12px;">📢 Activity Feed</h3>
             <div id="kelpActivityFeed"></div>
+        </div>
+
+        <!-- Arrow Controls for Boat Navigation -->
+        <div id="kelpArrowControls" style="display: none;">
+            <button class="kelp-arrow-btn" id="kelpArrowW" onmousedown="kelpArrowDown('w')" ontouchstart="kelpArrowDown('w'); return false;" onmouseup="kelpArrowUp('w')" ontouchend="kelpArrowUp('w')">↑</button>
+            <button class="kelp-arrow-btn" id="kelpArrowA" onmousedown="kelpArrowDown('a')" ontouchstart="kelpArrowDown('a'); return false;" onmouseup="kelpArrowUp('a')" ontouchend="kelpArrowUp('a')">←</button>
+            <button class="kelp-arrow-btn" id="kelpArrowS" onmousedown="kelpArrowDown('s')" ontouchstart="kelpArrowDown('s'); return false;" onmouseup="kelpArrowUp('s')" ontouchend="kelpArrowUp('s')">↓</button>
+            <button class="kelp-arrow-btn" id="kelpArrowD" onmousedown="kelpArrowDown('d')" ontouchstart="kelpArrowDown('d'); return false;" onmouseup="kelpArrowUp('d')" ontouchend="kelpArrowUp('d')">→</button>
         </div>
 
         <!-- Touch Joystick (Mobile) -->
@@ -8194,6 +8275,25 @@
             document.getElementById('gameScreen').style.display = 'none';
             document.getElementById('kelpCanvasContainer').style.display = 'block';
         }
+        
+        // Arrow button functions for Kelp Quest navigation
+        function kelpArrowDown(key) {
+            if (gameType === 'kelp') {
+                kelpKeys[key] = true;
+                const btnId = 'kelpArrow' + key.toUpperCase();
+                const btn = document.getElementById(btnId);
+                if (btn) btn.classList.add('active');
+            }
+        }
+        
+        function kelpArrowUp(key) {
+            if (gameType === 'kelp') {
+                kelpKeys[key] = false;
+                const btnId = 'kelpArrow' + key.toUpperCase();
+                const btn = document.getElementById(btnId);
+                if (btn) btn.classList.remove('active');
+            }
+        }
 
         function handleAnswer(index) {
             const buttons = document.querySelectorAll('.answer-button');
@@ -8219,11 +8319,7 @@
             // NEW: Handle kelp mode answers
             if (gameType === 'kelp' && hookedFish) {
                 handleKelpAnswer(isCorrect);
-                // Return to kelp canvas
-                setTimeout(() => {
-                    document.getElementById('gameScreen').style.display = 'none';
-                    document.getElementById('kelpCanvasContainer').style.display = 'block';
-                }, 2000);
+                // handleKelpAnswer already handles returning to canvas via returnToKelpFishing()
                 return;
             }
             
@@ -9100,6 +9196,10 @@
                 document.body.appendChild(sidePanel);
             }
             
+            // Make sure panel is visible
+            sidePanel.style.display = 'flex';
+            sidePanel.classList.add('visible');
+            
             // Update question text
             const questionText = document.getElementById('summitQuestionText');
             const optionsDiv = document.getElementById('summitAnswerOptions');
@@ -9227,6 +9327,7 @@
                 }
                 
                 // Hide side panel and show next question immediately
+                panel.style.display = 'none';
                 panel.classList.remove('visible');
                 summitQuestionModal = null;
                 updateSummitStats();
@@ -9240,6 +9341,10 @@
                 
                 // Show next question immediately (after a very short delay for visual feedback)
                 setTimeout(() => {
+                    const sidePanel = document.getElementById('summitQuestionSidePanel');
+                    if (sidePanel) {
+                        sidePanel.style.display = 'flex';
+                    }
                     showSummitQuestion();
                 }, 500);
             } else {
@@ -9271,6 +9376,7 @@
                 
                 // Hide side panel after delay for wrong answers (to show learning)
                 setTimeout(() => {
+                    panel.style.display = 'none';
                     panel.classList.remove('visible');
                     summitQuestionModal = null;
                     updateSummitStats();
@@ -9287,6 +9393,10 @@
                     
                     // Show next question after learning modal
                     setTimeout(() => {
+                        const sidePanel = document.getElementById('summitQuestionSidePanel');
+                        if (sidePanel) {
+                            sidePanel.style.display = 'flex';
+                        }
                         showSummitQuestion();
                     }, 2000);
                 }, 1500);
@@ -9809,6 +9919,15 @@
             // Initialize p5.js
             if (kelpCanvas) {
                 kelpCanvas.remove();
+            }
+            
+            // Reset kelp keys
+            kelpKeys = {};
+            
+            // Show arrow controls
+            const arrowControls = document.getElementById('kelpArrowControls');
+            if (arrowControls) {
+                arrowControls.style.display = 'grid';
             }
             
             kelpCanvas = new p5(kelpSketch, document.getElementById('kelpCanvas'));
