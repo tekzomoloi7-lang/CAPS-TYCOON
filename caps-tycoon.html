@@ -2793,6 +2793,505 @@
                 padding-right: max(16px, env(safe-area-inset-right));
             }
         }
+        
+        /* ========== ACHIEVEMENTS SYSTEM ========== */
+        .achievement-panel {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .achievement-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .achievement-tab {
+            padding: 12px 24px;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            font-weight: 600;
+            color: #6b7280;
+            transition: all 0.3s;
+        }
+        
+        .achievement-tab.active {
+            color: #3b82f6;
+            border-bottom-color: #3b82f6;
+        }
+        
+        .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .achievement-card {
+            background: #f9fafb;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .achievement-card.unlocked {
+            border-color: #10b981;
+            background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+        }
+        
+        .achievement-card.locked {
+            opacity: 0.6;
+        }
+        
+        .achievement-icon {
+            font-size: 48px;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        
+        .achievement-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        
+        .achievement-description {
+            font-size: 14px;
+            color: #6b7280;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        
+        .achievement-progress {
+            background: #e5e7eb;
+            border-radius: 8px;
+            height: 8px;
+            overflow: hidden;
+            margin-top: 12px;
+        }
+        
+        .achievement-progress-bar {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            height: 100%;
+            transition: width 0.3s;
+        }
+        
+        .achievement-progress-text {
+            font-size: 12px;
+            color: #6b7280;
+            margin-top: 4px;
+            text-align: center;
+        }
+        
+        .achievement-notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #f97316 0%, #eab308 100%);
+            color: white;
+            padding: 20px 30px;
+            border-radius: 16px;
+            font-weight: 700;
+            font-size: 18px;
+            box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
+            z-index: 10000;
+            animation: achievement-pop 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            max-width: 350px;
+        }
+        
+        .achievement-notification-icon {
+            font-size: 32px;
+            margin-right: 12px;
+            vertical-align: middle;
+        }
+        
+        /* ========== DAILY REWARDS SYSTEM ========== */
+        .daily-rewards-panel {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .daily-rewards-calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 12px;
+            margin-top: 20px;
+        }
+        
+        .daily-reward-day {
+            background: #f3f4f6;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 16px 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .daily-reward-day.claimed {
+            background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+            border-color: #10b981;
+            color: white;
+        }
+        
+        .daily-reward-day.today {
+            border-color: #f97316;
+            border-width: 3px;
+            box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.2);
+        }
+        
+        .daily-reward-day.locked {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .daily-reward-day-number {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .daily-reward-day-reward {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        
+        .daily-reward-streak {
+            text-align: center;
+            margin-top: 16px;
+            padding: 12px;
+            background: #fef3c7;
+            border-radius: 8px;
+        }
+        
+        /* ========== XP & LEVEL SYSTEM ========== */
+        .level-badge {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .xp-bar-container {
+            background: #e5e7eb;
+            border-radius: 12px;
+            height: 12px;
+            overflow: hidden;
+            margin: 8px 0;
+            position: relative;
+        }
+        
+        .xp-bar {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            height: 100%;
+            transition: width 0.5s ease;
+            border-radius: 12px;
+        }
+        
+        .xp-bar-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 10px;
+            font-weight: 600;
+            color: #1f2937;
+            z-index: 1;
+        }
+        
+        .level-up-animation {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: linear-gradient(135deg, #f97316 0%, #eab308 100%);
+            color: white;
+            padding: 40px 60px;
+            border-radius: 24px;
+            font-size: 32px;
+            font-weight: 900;
+            z-index: 10001;
+            animation: level-up-pop 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            box-shadow: 0 20px 60px rgba(249, 115, 22, 0.5);
+        }
+        
+        @keyframes level-up-pop {
+            0% {
+                transform: translate(-50%, -50%) scale(0);
+                opacity: 0;
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.2);
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+        
+        /* ========== ENHANCED HOME SCREEN ========== */
+        .home-quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 20px 0;
+        }
+        
+        .quick-stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .quick-stat-label {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        
+        .quick-stat-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1f2937;
+        }
+        
+        .home-quick-actions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+            margin: 20px 0;
+        }
+        
+        .quick-action-btn {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            font-weight: 600;
+            color: #1f2937;
+        }
+        
+        .quick-action-btn:hover {
+            border-color: #3b82f6;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+        }
+        
+        .quick-action-icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        
+        /* ========== LEADERBOARDS ========== */
+        .leaderboard-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .leaderboard-tab {
+            padding: 10px 20px;
+            background: #f3f4f6;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .leaderboard-tab.active {
+            background: #3b82f6;
+            color: white;
+        }
+        
+        .leaderboard-entry {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .leaderboard-rank {
+            font-size: 24px;
+            font-weight: 700;
+            color: #6b7280;
+            min-width: 40px;
+            text-align: center;
+        }
+        
+        .leaderboard-rank.top-1 {
+            color: #fbbf24;
+        }
+        
+        .leaderboard-rank.top-2 {
+            color: #c0c0c0;
+        }
+        
+        .leaderboard-rank.top-3 {
+            color: #cd7f32;
+        }
+        
+        /* ========== PLAYER STATISTICS ========== */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stat-card-label {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        
+        .stat-card-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1f2937;
+        }
+        
+        /* ========== THEME SYSTEM ========== */
+        .theme-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 16px;
+            margin: 20px 0;
+        }
+        
+        .theme-option {
+            border: 3px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        
+        .theme-option.active {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+        
+        .theme-option.locked {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .theme-preview {
+            width: 100%;
+            height: 60px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+        
+        /* ========== SOUND CONTROLS ========== */
+        .sound-controls {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        
+        .sound-toggle-btn {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        
+        .sound-toggle-btn:hover {
+            background: #f3f4f6;
+        }
+        
+        .volume-slider {
+            width: 100px;
+        }
+        
+        /* ========== ENHANCED GAME END SCREEN ========== */
+        .game-end-xp-display {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .game-end-achievements {
+            margin: 20px 0;
+        }
+        
+        .game-end-share-btn {
+            background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 12px 24px;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 8px;
+        }
+        
+        /* ========== SOCIAL SHARING ========== */
+        .share-btn {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
     </style>
 </head>
 <body>
@@ -2802,6 +3301,57 @@
         <div class="title-section">
             <h1 class="main-title">ZA Mzansi Learn & Play</h1>
             <p class="subtitle">CAPS-Aligned Educational Gaming Platform</p>
+            <div style="margin-top: 16px;">
+                <span class="level-badge" id="homeLevelBadge">Level 1</span>
+                <div class="xp-bar-container" style="max-width: 300px; margin: 12px auto;">
+                    <div class="xp-bar" id="homeXpBar" style="width: 0%"></div>
+                    <div class="xp-bar-text" id="homeXpBarText">0 / 100 XP</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Stats Widget -->
+        <div class="home-quick-stats" id="homeQuickStats" style="display: none;">
+            <div class="quick-stat-card">
+                <div class="quick-stat-label">Today's Games</div>
+                <div class="quick-stat-value" id="quickStatGames">0</div>
+            </div>
+            <div class="quick-stat-card">
+                <div class="quick-stat-label">Current Streak</div>
+                <div class="quick-stat-value" id="quickStatStreak">0</div>
+            </div>
+            <div class="quick-stat-card">
+                <div class="quick-stat-label">Total Correct</div>
+                <div class="quick-stat-value" id="quickStatCorrect">0</div>
+            </div>
+            <div class="quick-stat-card">
+                <div class="quick-stat-label">Accuracy</div>
+                <div class="quick-stat-value" id="quickStatAccuracy">0%</div>
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="home-quick-actions">
+            <div class="quick-action-btn" onclick="openDailyRewardsModal()">
+                <div class="quick-action-icon">📅</div>
+                <div>Daily Rewards</div>
+            </div>
+            <div class="quick-action-btn" onclick="openAchievementsModal()">
+                <div class="quick-action-icon">🏆</div>
+                <div>Achievements</div>
+            </div>
+            <div class="quick-action-btn" onclick="openLeaderboardsModal()">
+                <div class="quick-action-icon">🏆</div>
+                <div>Leaderboards</div>
+            </div>
+            <div class="quick-action-btn" onclick="openPlayerStatsModal()">
+                <div class="quick-action-icon">📊</div>
+                <div>Statistics</div>
+            </div>
+            <div class="quick-action-btn" onclick="openThemesModal()">
+                <div class="quick-action-icon">🎨</div>
+                <div>Themes</div>
+            </div>
         </div>
 
         <div class="grade-selection-box">
@@ -3559,6 +4109,106 @@
         </div>
     </div>
 
+    <!-- Achievements Modal -->
+    <div id="achievementsModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 2000; align-items: center; justify-content: center; overflow-y: auto;">
+        <div style="background: white; border-radius: 24px; padding: 40px; max-width: 900px; max-height: 90vh; overflow-y: auto; margin: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                <h2 style="font-size: 32px; font-weight: 700; color: #1f2937;">🏆 Achievements</h2>
+                <button onclick="closeAchievementsModal()" style="background: none; border: none; font-size: 32px; cursor: pointer; color: #6b7280;">✕</button>
+            </div>
+            <div class="achievement-tabs">
+                <button class="achievement-tab active" onclick="switchAchievementTab('all')">All</button>
+                <button class="achievement-tab" onclick="switchAchievementTab('unlocked')">Unlocked</button>
+                <button class="achievement-tab" onclick="switchAchievementTab('locked')">Locked</button>
+                <button class="achievement-tab" onclick="switchAchievementTab('progress')">In Progress</button>
+            </div>
+            <div class="achievements-grid" id="achievementsGrid">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Daily Rewards Modal -->
+    <div id="dailyRewardsModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 2000; align-items: center; justify-content: center;">
+        <div style="background: white; border-radius: 24px; padding: 40px; max-width: 600px; margin: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                <h2 style="font-size: 32px; font-weight: 700; color: #1f2937;">📅 Daily Rewards</h2>
+                <button onclick="closeDailyRewardsModal()" style="background: none; border: none; font-size: 32px; cursor: pointer; color: #6b7280;">✕</button>
+            </div>
+            <div class="daily-reward-streak">
+                <div style="font-size: 18px; font-weight: 700; margin-bottom: 8px;">🔥 Streak: <span id="dailyStreakCount">0</span> days</div>
+                <div style="font-size: 14px; color: #6b7280;">Keep your streak going for bonus rewards!</div>
+            </div>
+            <div class="daily-rewards-calendar" id="dailyRewardsCalendar">
+                <!-- Populated dynamically -->
+            </div>
+            <button class="grade-button" onclick="claimDailyReward()" id="claimDailyRewardBtn" style="width: 100%; margin-top: 24px;">Claim Today's Reward</button>
+        </div>
+    </div>
+
+    <!-- Player Statistics Modal -->
+    <div id="playerStatsModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 2000; align-items: center; justify-content: center; overflow-y: auto;">
+        <div style="background: white; border-radius: 24px; padding: 40px; max-width: 900px; max-height: 90vh; overflow-y: auto; margin: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                <h2 style="font-size: 32px; font-weight: 700; color: #1f2937;">📊 Your Statistics</h2>
+                <button onclick="closePlayerStatsModal()" style="background: none; border: none; font-size: 32px; cursor: pointer; color: #6b7280;">✕</button>
+            </div>
+            <div class="stats-grid" id="playerStatsGrid">
+                <!-- Populated dynamically -->
+            </div>
+            <div style="margin-top: 32px;">
+                <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 16px;">Recent Games</h3>
+                <div id="recentGamesList">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaderboards Modal -->
+    <div id="leaderboardsModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 2000; align-items: center; justify-content: center; overflow-y: auto;">
+        <div style="background: white; border-radius: 24px; padding: 40px; max-width: 800px; max-height: 90vh; overflow-y: auto; margin: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                <h2 style="font-size: 32px; font-weight: 700; color: #1f2937;">🏆 Leaderboards</h2>
+                <button onclick="closeLeaderboardsModal()" style="background: none; border: none; font-size: 32px; cursor: pointer; color: #6b7280;">✕</button>
+            </div>
+            <div class="leaderboard-tabs">
+                <button class="leaderboard-tab active" onclick="switchLeaderboardPeriod('weekly')">Weekly</button>
+                <button class="leaderboard-tab" onclick="switchLeaderboardPeriod('monthly')">Monthly</button>
+                <button class="leaderboard-tab" onclick="switchLeaderboardPeriod('alltime')">All Time</button>
+            </div>
+            <div style="margin-top: 20px;">
+                <select id="leaderboardGameMode" style="width: 100%; padding: 12px; border: 2px solid #e5e7eb; border-radius: 8px; margin-bottom: 20px;" onchange="loadLeaderboard()">
+                    <option value="tycoon">CAPS Tycoon</option>
+                    <option value="summit">Ubuntu Summit</option>
+                    <option value="kelp">Mzansi Kelp Quest</option>
+                </select>
+                <div id="leaderboardEntries">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Themes Modal -->
+    <div id="themesModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 2000; align-items: center; justify-content: center;">
+        <div style="background: white; border-radius: 24px; padding: 40px; max-width: 700px; margin: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                <h2 style="font-size: 32px; font-weight: 700; color: #1f2937;">🎨 Themes</h2>
+                <button onclick="closeThemesModal()" style="background: none; border: none; font-size: 32px; cursor: pointer; color: #6b7280;">✕</button>
+            </div>
+            <div class="theme-selector" id="themesSelector">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Sound Controls (Fixed Position) -->
+    <div class="sound-controls" id="soundControls" style="display: none;">
+        <button class="sound-toggle-btn" id="soundToggleBtn" onclick="toggleSound()" title="Toggle Sound">🔊</button>
+        <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="50" oninput="setVolume(this.value)">
+    </div>
+
     <script>
         // ==================== CRITICAL FUNCTIONS - LOADED FIRST ====================
         // Define these immediately so buttons work even if other scripts fail
@@ -3895,6 +4545,9 @@
         document.addEventListener('DOMContentLoaded', function() {
             initAnimatedBackground();
             enhanceButtons();
+            if (typeof initProgressionSystem === 'function') {
+                initProgressionSystem();
+            }
             
             // Re-enhance buttons and backgrounds when new screens are shown
             const observer = new MutationObserver(function(mutations) {
@@ -4576,6 +5229,548 @@
         let gameTarget = 50000; // Target money to win
         let gameTimeLimit = 600; // 10 minutes in seconds
         let gameStartTime = null;
+
+        // ==================== ACHIEVEMENTS & PROGRESSION SYSTEM ====================
+        
+        // Player progression data
+        let playerLevel = 1;
+        let playerXP = 0;
+        let playerStats = {
+            totalGames: 0,
+            totalCorrect: 0,
+            totalQuestions: 0,
+            gamesWon: 0,
+            gamesHosted: 0,
+            gamesJoined: 0,
+            longestStreak: 0,
+            currentStreak: 0,
+            bestScores: {
+                tycoon: 0,
+                summit: 0,
+                kelp: 0
+            },
+            lastPlayDate: null,
+            playHistory: []
+        };
+        
+        // Achievement definitions
+        const achievements = [
+            // First Steps
+            { id: 'first_correct', name: 'First Step', icon: '🎯', description: 'Answer your first question correctly', category: 'first_steps', progress: 0, target: 1, unlocked: false },
+            { id: 'first_game', name: 'Game On!', icon: '🎮', description: 'Complete your first game', category: 'first_steps', progress: 0, target: 1, unlocked: false },
+            { id: 'first_win', name: 'Winner!', icon: '🏆', description: 'Win your first game', category: 'first_steps', progress: 0, target: 1, unlocked: false },
+            
+            // Milestones
+            { id: 'correct_100', name: 'Century Club', icon: '💯', description: 'Answer 100 questions correctly', category: 'milestones', progress: 0, target: 100, unlocked: false },
+            { id: 'correct_1000', name: 'Master', icon: '🌟', description: 'Answer 1000 questions correctly', category: 'milestones', progress: 0, target: 1000, unlocked: false },
+            { id: 'balance_10k', name: 'Tycoon', icon: '💰', description: 'Reach R10,000 in a game', category: 'milestones', progress: 0, target: 10000, unlocked: false },
+            
+            // Mastery
+            { id: 'perfect_game', name: 'Perfect Game', icon: '✨', description: 'Get all questions correct in a game', category: 'mastery', progress: 0, target: 1, unlocked: false },
+            { id: 'streak_10', name: 'On Fire', icon: '🔥', description: 'Get 10 correct answers in a row', category: 'mastery', progress: 0, target: 10, unlocked: false },
+            { id: 'accuracy_100', name: 'Flawless', icon: '💎', description: 'Achieve 100% accuracy in a game', category: 'mastery', progress: 0, target: 100, unlocked: false },
+            
+            // Game Mode Specific
+            { id: 'summit_champion', name: 'Summit Champion', icon: '⛰️', description: 'Reach the summit in Ubuntu Summit', category: 'game_modes', progress: 0, target: 1, unlocked: false },
+            { id: 'kelp_master', name: 'Kelp Master', icon: '🎣', description: 'Catch 100kg in Mzansi Kelp Quest', category: 'game_modes', progress: 0, target: 100, unlocked: false },
+            { id: 'tycoon_expert', name: 'Tycoon Expert', icon: '🏗️', description: 'Reach R100,000 in CAPS Tycoon', category: 'game_modes', progress: 0, target: 100000, unlocked: false },
+            
+            // Social
+            { id: 'host_10', name: 'Event Host', icon: '👨‍🏫', description: 'Host 10 multiplayer games', category: 'social', progress: 0, target: 10, unlocked: false },
+            { id: 'join_50', name: 'Team Player', icon: '👥', description: 'Join 50 multiplayer games', category: 'social', progress: 0, target: 50, unlocked: false }
+        ];
+        
+        // Daily rewards configuration
+        const dailyRewards = [
+            { day: 1, xp: 25, label: '25 XP' },
+            { day: 2, xp: 50, label: '50 XP' },
+            { day: 3, xp: 75, label: '75 XP' },
+            { day: 4, xp: 100, label: '100 XP' },
+            { day: 5, xp: 150, label: '150 XP' },
+            { day: 6, xp: 200, label: '200 XP' },
+            { day: 7, xp: 300, label: '300 XP + Bonus' }
+        ];
+        
+        // Sound system
+        let soundEnabled = true;
+        let soundVolume = 0.5;
+        const soundEffects = {
+            correct: null,
+            incorrect: null,
+            levelup: null,
+            achievement: null,
+            click: null
+        };
+        
+        // Theme system
+        const themes = [
+            { id: 'default', name: 'Default', colors: { primary: '#22c55e', secondary: '#eab308', accent: '#f97316' }, unlocked: true },
+            { id: 'dark', name: 'Dark', colors: { primary: '#1f2937', secondary: '#374151', accent: '#3b82f6' }, unlocked: false },
+            { id: 'ocean', name: 'Ocean', colors: { primary: '#06b6d4', secondary: '#0ea5e9', accent: '#3b82f6' }, unlocked: false },
+            { id: 'forest', name: 'Forest', colors: { primary: '#16a34a', secondary: '#22c55e', accent: '#84cc16' }, unlocked: false },
+            { id: 'sunset', name: 'Sunset', colors: { primary: '#f97316', secondary: '#fb923c', accent: '#f59e0b' }, unlocked: false }
+        ];
+        let currentTheme = 'default';
+        
+        // Initialize progression system
+        function initProgressionSystem() {
+            loadPlayerData();
+            updateHomeScreen();
+            initSoundSystem();
+            checkDailyReward();
+        }
+        
+        // Load player data from localStorage
+        function loadPlayerData() {
+            try {
+                const saved = localStorage.getItem('caps_player_data');
+                if (saved) {
+                    const data = JSON.parse(saved);
+                    playerLevel = data.level || 1;
+                    playerXP = data.xp || 0;
+                    playerStats = { ...playerStats, ...(data.stats || {}) };
+                    currentTheme = data.theme || 'default';
+                    
+                    // Load achievements
+                    const savedAchievements = localStorage.getItem('caps_achievements');
+                    if (savedAchievements) {
+                        const unlocked = JSON.parse(savedAchievements);
+                        achievements.forEach(ach => {
+                            if (unlocked[ach.id]) {
+                                ach.unlocked = true;
+                                ach.progress = unlocked[ach.id].progress || 0;
+                            }
+                        });
+                    }
+                }
+            } catch (e) {
+                console.warn('Error loading player data:', e);
+            }
+        }
+        
+        // Save player data to localStorage
+        function savePlayerData() {
+            try {
+                const unlockedAchievements = {};
+                achievements.forEach(ach => {
+                    if (ach.unlocked) {
+                        unlockedAchievements[ach.id] = { progress: ach.progress, unlockedAt: Date.now() };
+                    }
+                });
+                
+                const data = {
+                    level: playerLevel,
+                    xp: playerXP,
+                    stats: playerStats,
+                    theme: currentTheme,
+                    lastSaved: Date.now()
+                };
+                
+                localStorage.setItem('caps_player_data', JSON.stringify(data));
+                localStorage.setItem('caps_achievements', JSON.stringify(unlockedAchievements));
+            } catch (e) {
+                console.warn('Error saving player data:', e);
+            }
+        }
+        
+        // Award XP
+        function awardXP(amount, reason) {
+            if (!amount) return;
+            playerXP += amount;
+            const xpNeeded = getXPForLevel(playerLevel + 1);
+            const previousLevel = playerLevel;
+            
+            // Check for level up
+            while (playerXP >= xpNeeded) {
+                playerXP -= xpNeeded;
+                playerLevel++;
+                showLevelUpAnimation();
+                checkAchievement('level_' + playerLevel);
+            }
+            
+            savePlayerData();
+            updateHomeScreen();
+            return { previousLevel, newLevel: playerLevel, xpGained: amount };
+        }
+        
+        // Get XP required for a level
+        function getXPForLevel(level) {
+            return Math.floor(100 * Math.pow(1.5, level - 1));
+        }
+        
+        // Check and unlock achievements
+        function checkAchievement(achievementId) {
+            const achievement = achievements.find(a => a.id === achievementId);
+            if (!achievement || achievement.unlocked) return;
+            
+            achievement.unlocked = true;
+            showAchievementNotification(achievement);
+            awardXP(50, 'achievement');
+            savePlayerData();
+        }
+        
+        // Check achievement progress
+        function updateAchievementProgress(achievementId, progress) {
+            const achievement = achievements.find(a => a.id === achievementId);
+            if (!achievement || achievement.unlocked) return;
+            
+            achievement.progress = Math.min(progress, achievement.target);
+            if (achievement.progress >= achievement.target) {
+                checkAchievement(achievementId);
+            }
+            savePlayerData();
+        }
+        
+        // Show achievement notification
+        function showAchievementNotification(achievement) {
+            const notification = document.createElement('div');
+            notification.className = 'achievement-notification';
+            notification.innerHTML = `<span class="achievement-notification-icon">${achievement.icon}</span> Achievement Unlocked: ${achievement.name}`;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.animation = 'achievement-pop 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) reverse';
+                setTimeout(() => notification.remove(), 600);
+            }, 3000);
+            
+            playSound('achievement');
+        }
+        
+        // Show level up animation
+        function showLevelUpAnimation() {
+            const animation = document.createElement('div');
+            animation.className = 'level-up-animation';
+            animation.textContent = `Level Up! Level ${playerLevel}`;
+            document.body.appendChild(animation);
+            
+            setTimeout(() => {
+                animation.style.opacity = '0';
+                animation.style.transition = 'opacity 0.5s';
+                setTimeout(() => animation.remove(), 500);
+            }, 2000);
+            
+            playSound('levelup');
+        }
+        
+        // Update home screen with stats
+        function updateHomeScreen() {
+            const levelBadge = document.getElementById('homeLevelBadge');
+            const xpBar = document.getElementById('homeXpBar');
+            const xpBarText = document.getElementById('homeXpBarText');
+            
+            if (levelBadge) levelBadge.textContent = `Level ${playerLevel}`;
+            
+            if (xpBar && xpBarText) {
+                const currentLevelXP = getXPForLevel(playerLevel);
+                const progress = (playerXP / currentLevelXP) * 100;
+                xpBar.style.width = progress + '%';
+                xpBarText.textContent = `${playerXP} / ${currentLevelXP} XP`;
+            }
+            
+            // Update quick stats
+            const quickStats = document.getElementById('homeQuickStats');
+            if (quickStats) {
+                const today = new Date().toDateString();
+                const todayGames = playerStats.playHistory.filter(g => new Date(g.date).toDateString() === today).length;
+                document.getElementById('quickStatGames').textContent = todayGames;
+                document.getElementById('quickStatStreak').textContent = playerStats.currentStreak;
+                document.getElementById('quickStatCorrect').textContent = playerStats.totalCorrect;
+                const accuracy = playerStats.totalQuestions > 0 ? Math.round((playerStats.totalCorrect / playerStats.totalQuestions) * 100) : 0;
+                document.getElementById('quickStatAccuracy').textContent = accuracy + '%';
+                quickStats.style.display = 'grid';
+            }
+        }
+        
+        // Daily rewards functions
+        function checkDailyReward() {
+            const today = new Date().toDateString();
+            const lastClaim = localStorage.getItem('caps_daily_reward_date');
+            const currentStreak = parseInt(localStorage.getItem('caps_daily_streak') || '0');
+            
+            if (lastClaim !== today) {
+                // New day - can claim
+                const claimBtn = document.getElementById('claimDailyRewardBtn');
+                if (claimBtn) {
+                    claimBtn.disabled = false;
+                    claimBtn.textContent = 'Claim Today\'s Reward';
+                }
+            } else {
+                // Already claimed today
+                const claimBtn = document.getElementById('claimDailyRewardBtn');
+                if (claimBtn) {
+                    claimBtn.disabled = true;
+                    claimBtn.textContent = 'Already Claimed Today';
+                }
+            }
+            
+            // Update streak display
+            const streakCount = document.getElementById('dailyStreakCount');
+            if (streakCount) streakCount.textContent = currentStreak;
+        }
+        
+        function claimDailyReward() {
+            const today = new Date().toDateString();
+            const lastClaim = localStorage.getItem('caps_daily_reward_date');
+            const currentStreak = parseInt(localStorage.getItem('caps_daily_streak') || '0');
+            
+            if (lastClaim === today) {
+                alert('You have already claimed today\'s reward!');
+                return;
+            }
+            
+            // Calculate new streak
+            const yesterday = new Date();
+            yesterday.setDate(yesterday.getDate() - 1);
+            const newStreak = lastClaim === yesterday.toDateString() ? currentStreak + 1 : 1;
+            
+            // Get reward for day
+            const rewardDay = ((newStreak - 1) % 7) + 1;
+            const reward = dailyRewards[rewardDay - 1];
+            
+            // Award XP
+            awardXP(reward.xp, 'daily_reward');
+            
+            // Save
+            localStorage.setItem('caps_daily_reward_date', today);
+            localStorage.setItem('caps_daily_streak', newStreak.toString());
+            playerStats.currentStreak = newStreak;
+            if (newStreak > playerStats.longestStreak) {
+                playerStats.longestStreak = newStreak;
+            }
+            savePlayerData();
+            
+            alert(`Daily reward claimed! You received ${reward.label}. Streak: ${newStreak} days!`);
+            checkDailyReward();
+            updateDailyRewardsModal();
+        }
+        
+        // Modal functions
+        function openAchievementsModal() {
+            document.getElementById('achievementsModal').style.display = 'flex';
+            renderAchievements('all');
+        }
+        
+        function closeAchievementsModal() {
+            document.getElementById('achievementsModal').style.display = 'none';
+        }
+        
+        function switchAchievementTab(tab) {
+            document.querySelectorAll('.achievement-tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+            renderAchievements(tab);
+        }
+        
+        function renderAchievements(filter) {
+            const grid = document.getElementById('achievementsGrid');
+            if (!grid) return;
+            
+            grid.innerHTML = '';
+            let filtered = achievements;
+            
+            if (filter === 'unlocked') filtered = achievements.filter(a => a.unlocked);
+            else if (filter === 'locked') filtered = achievements.filter(a => !a.unlocked);
+            else if (filter === 'progress') filtered = achievements.filter(a => !a.unlocked && a.progress > 0);
+            
+            filtered.forEach(ach => {
+                const card = document.createElement('div');
+                card.className = `achievement-card ${ach.unlocked ? 'unlocked' : 'locked'}`;
+                const progress = ach.target > 1 ? Math.round((ach.progress / ach.target) * 100) : (ach.unlocked ? 100 : 0);
+                
+                card.innerHTML = `
+                    <div class="achievement-icon">${ach.icon}</div>
+                    <div class="achievement-name">${ach.name}</div>
+                    <div class="achievement-description">${ach.description}</div>
+                    ${ach.target > 1 ? `
+                        <div class="achievement-progress">
+                            <div class="achievement-progress-bar" style="width: ${progress}%"></div>
+                        </div>
+                        <div class="achievement-progress-text">${ach.progress} / ${ach.target}</div>
+                    ` : ''}
+                `;
+                grid.appendChild(card);
+            });
+        }
+        
+        function openDailyRewardsModal() {
+            document.getElementById('dailyRewardsModal').style.display = 'flex';
+            updateDailyRewardsModal();
+        }
+        
+        function closeDailyRewardsModal() {
+            document.getElementById('dailyRewardsModal').style.display = 'none';
+        }
+        
+        function updateDailyRewardsModal() {
+            const calendar = document.getElementById('dailyRewardsCalendar');
+            if (!calendar) return;
+            
+            calendar.innerHTML = '';
+            const currentStreak = parseInt(localStorage.getItem('caps_daily_streak') || '0');
+            const lastClaim = localStorage.getItem('caps_daily_reward_date');
+            const today = new Date().toDateString();
+            
+            dailyRewards.forEach((reward, index) => {
+                const day = document.createElement('div');
+                day.className = 'daily-reward-day';
+                const dayNumber = index + 1;
+                const isClaimed = lastClaim === today && ((currentStreak - 1) % 7) + 1 === dayNumber;
+                const isToday = lastClaim !== today && dayNumber === 1;
+                const isLocked = dayNumber > ((currentStreak % 7) + 1) && lastClaim === today;
+                
+                if (isClaimed) day.classList.add('claimed');
+                if (isToday) day.classList.add('today');
+                if (isLocked) day.classList.add('locked');
+                
+                day.innerHTML = `
+                    <div class="daily-reward-day-number">Day ${dayNumber}</div>
+                    <div class="daily-reward-day-reward">${reward.label}</div>
+                `;
+                calendar.appendChild(day);
+            });
+        }
+        
+        function openPlayerStatsModal() {
+            document.getElementById('playerStatsModal').style.display = 'flex';
+            renderPlayerStats();
+        }
+        
+        function closePlayerStatsModal() {
+            document.getElementById('playerStatsModal').style.display = 'none';
+        }
+        
+        function renderPlayerStats() {
+            const grid = document.getElementById('playerStatsGrid');
+            const recentList = document.getElementById('recentGamesList');
+            if (!grid || !recentList) return;
+            
+            grid.innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-card-label">Total Games</div>
+                    <div class="stat-card-value">${playerStats.totalGames}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-label">Games Won</div>
+                    <div class="stat-card-value">${playerStats.gamesWon}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-label">Total Correct</div>
+                    <div class="stat-card-value">${playerStats.totalCorrect}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-label">Accuracy</div>
+                    <div class="stat-card-value">${playerStats.totalQuestions > 0 ? Math.round((playerStats.totalCorrect / playerStats.totalQuestions) * 100) : 0}%</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-label">Longest Streak</div>
+                    <div class="stat-card-value">${playerStats.longestStreak}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-label">Current Level</div>
+                    <div class="stat-card-value">${playerLevel}</div>
+                </div>
+            `;
+            
+            recentList.innerHTML = playerStats.playHistory.slice(-10).reverse().map(game => `
+                <div style="background: #f3f4f6; padding: 16px; border-radius: 12px; margin-bottom: 12px;">
+                    <div style="font-weight: 600; margin-bottom: 8px;">${game.mode} - ${new Date(game.date).toLocaleDateString()}</div>
+                    <div style="font-size: 14px; color: #6b7280;">Score: ${game.score} | Accuracy: ${game.accuracy}%</div>
+                </div>
+            `).join('');
+        }
+        
+        function openLeaderboardsModal() {
+            document.getElementById('leaderboardsModal').style.display = 'flex';
+            loadLeaderboard();
+        }
+        
+        function closeLeaderboardsModal() {
+            document.getElementById('leaderboardsModal').style.display = 'none';
+        }
+        
+        function switchLeaderboardPeriod(period) {
+            document.querySelectorAll('.leaderboard-tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+            loadLeaderboard();
+        }
+        
+        function loadLeaderboard() {
+            // Placeholder - would integrate with Firebase
+            const entries = document.getElementById('leaderboardEntries');
+            if (entries) {
+                entries.innerHTML = '<div style="text-align: center; padding: 40px; color: #6b7280;">Leaderboards coming soon! Play games to see your ranking.</div>';
+            }
+        }
+        
+        function openThemesModal() {
+            document.getElementById('themesModal').style.display = 'flex';
+            renderThemes();
+        }
+        
+        function closeThemesModal() {
+            document.getElementById('themesModal').style.display = 'none';
+        }
+        
+        function renderThemes() {
+            const selector = document.getElementById('themesSelector');
+            if (!selector) return;
+            
+            selector.innerHTML = themes.map(theme => `
+                <div class="theme-option ${theme.unlocked ? '' : 'locked'} ${currentTheme === theme.id ? 'active' : ''}" 
+                     onclick="${theme.unlocked ? `applyTheme('${theme.id}')` : ''}">
+                    <div class="theme-preview" style="background: linear-gradient(135deg, ${theme.colors.primary} 0%, ${theme.colors.secondary} 50%, ${theme.colors.accent} 100%);"></div>
+                    <div style="font-weight: 600; margin-top: 8px;">${theme.name}</div>
+                    ${!theme.unlocked ? '<div style="font-size: 12px; color: #6b7280;">Locked</div>' : ''}
+                </div>
+            `).join('');
+        }
+        
+        function applyTheme(themeId) {
+            currentTheme = themeId;
+            savePlayerData();
+            renderThemes();
+            // Apply theme CSS variables (would need to implement theme system)
+        }
+        
+        // Sound system functions
+        function initSoundSystem() {
+            // Create audio contexts for sound effects
+            // For now, using simple approach - would use Web Audio API for better control
+            const controls = document.getElementById('soundControls');
+            if (controls) {
+                controls.style.display = 'flex';
+            }
+        }
+        
+        function toggleSound() {
+            soundEnabled = !soundEnabled;
+            const btn = document.getElementById('soundToggleBtn');
+            if (btn) btn.textContent = soundEnabled ? '🔊' : '🔇';
+        }
+        
+        function setVolume(value) {
+            soundVolume = value / 100;
+        }
+        
+        function playSound(type) {
+            if (!soundEnabled) return;
+            // Placeholder - would play actual sound files
+            console.log('Playing sound:', type);
+        }
+        
+        // Social sharing
+        function shareResult(score, accuracy, mode) {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'ZA Mzansi Learn & Play',
+                    text: `I just scored ${score} with ${accuracy}% accuracy in ${mode}!`,
+                    url: window.location.href
+                });
+            } else {
+                // Fallback - copy to clipboard
+                const text = `I just scored ${score} with ${accuracy}% accuracy in ${mode} on ZA Mzansi Learn & Play!`;
+                navigator.clipboard.writeText(text).then(() => alert('Result copied to clipboard!'));
+            }
+        }
 
         // Tycoon Upgrades System
         let incomePerSecond = 0;
@@ -5604,6 +6799,7 @@
         let kelpOtherPlayers = {}; // Other players' boats (multiplayer)
         let kelpParticles = []; // Bubbles, splashes, reel sparks
         let kelpParallax = { waves: 0, kelp: 0, bubbles: 0 };
+        let kelpKeys = {}; // Virtual D-pad keys state (w, a, s, d)
         
         // NEW: Bait System
         let bait = 0; // Current bait count (earned from questions)
@@ -8000,6 +9196,11 @@
             document.getElementById('hostScreen').style.display = 'none';
             document.getElementById('joinScreen').style.display = 'none';
             
+            // Update home screen stats
+            if (typeof updateHomeScreen === 'function') {
+                updateHomeScreen();
+            }
+            
             // Hide summit question side panel
             const sidePanel = document.getElementById('summitQuestionSidePanel');
             if (sidePanel) {
@@ -8469,13 +9670,30 @@
                 balance += baseReward + streakBonus;
                 streak++;
                 correct++;
+                total++;
                 
-                // Achievement check
-                if (streak === 5 && typeof showAchievementBadge === 'function') {
-                    showAchievementBadge('5 Streak! Keep it up! 🔥', '🔥');
-                } else if (streak === 10 && typeof showAchievementBadge === 'function') {
-                    showAchievementBadge('10 Streak! Amazing! 🌟', '🌟');
+                // Award XP and check achievements
+                if (typeof awardXP === 'function') {
+                    awardXP(10, 'correct_answer');
                 }
+                if (typeof updateAchievementProgress === 'function') {
+                    updateAchievementProgress('first_correct', 1);
+                    updateAchievementProgress('correct_100', correct);
+                    updateAchievementProgress('correct_1000', correct);
+                }
+                if (typeof checkAchievement === 'function') {
+                    if (streak === 10) checkAchievement('streak_10');
+                }
+                
+                // Update player stats
+                playerStats.totalCorrect++;
+                playerStats.totalQuestions++;
+                if (streak > playerStats.longestStreak) {
+                    playerStats.longestStreak = streak;
+                }
+                
+                // Play sound
+                if (typeof playSound === 'function') playSound('correct');
             } else {
                 buttons[index].classList.add('incorrect');
                 
@@ -8494,9 +9712,16 @@
                 
                 balance = Math.max(0, balance - penalty); // Prevent negative balance
                 streak = 0;
+                total++;
+                
+                // Update player stats for incorrect
+                playerStats.totalQuestions++;
+                savePlayerData();
+                
+                // Play sound
+                if (typeof playSound === 'function') playSound('incorrect');
             }
             
-            total++;
             updateStats();
             
             // Sync to Firebase if online
@@ -10489,11 +11714,11 @@
                 let moveX = 0;
                 let moveY = 0;
                 
-                // Keyboard input
-                if (keys['a'] || keys['arrowleft']) moveX -= 1;
-                if (keys['d'] || keys['arrowright']) moveX += 1;
-                if (keys['w'] || keys['arrowup']) moveY -= 1;
-                if (keys['s'] || keys['arrowdown']) moveY += 1;
+                // Keyboard input (WASD or Arrow keys)
+                if (keys['a'] || keys['arrowleft'] || (typeof kelpKeys !== 'undefined' && kelpKeys['a'])) moveX -= 1;
+                if (keys['d'] || keys['arrowright'] || (typeof kelpKeys !== 'undefined' && kelpKeys['d'])) moveX += 1;
+                if (keys['w'] || keys['arrowup'] || (typeof kelpKeys !== 'undefined' && kelpKeys['w'])) moveY -= 1;
+                if (keys['s'] || keys['arrowdown'] || (typeof kelpKeys !== 'undefined' && kelpKeys['s'])) moveY += 1;
                 
                 // Joystick input (mobile)
                 if (joystickActive) {
@@ -12538,6 +13763,11 @@
             document.getElementById('kelpCanvasContainer').style.display = 'none';
             document.getElementById('subjectScreen').style.display = 'none';
             document.getElementById('powerupsScreen').style.display = 'none';
+            
+            // Update home screen stats
+            if (typeof updateHomeScreen === 'function') {
+                updateHomeScreen();
+            }
             document.getElementById('gameModeScreen').style.display = 'none';
             document.getElementById('hostScreen').style.display = 'none';
             document.getElementById('joinScreen').style.display = 'none';
