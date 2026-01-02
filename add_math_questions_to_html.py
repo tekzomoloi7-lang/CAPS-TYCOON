@@ -64,3 +64,7 @@ print(f"\nTotal questions by grade:")
 for grade in grades:
     print(f"  Grade {grade}: {len(all_questions[grade])} questions")
 
+
+
+
+

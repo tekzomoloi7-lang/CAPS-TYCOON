@@ -24,3 +24,8 @@ For now, the app will work without icons, but icons are required for:
 
 
 
+
+
+
+
+
