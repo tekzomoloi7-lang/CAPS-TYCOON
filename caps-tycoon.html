@@ -8186,7 +8186,7 @@
                 // Fallback to default
                 const fallback = currentSubject === 'physicalSciences' 
                     ? questionBanks.physicalSciences.default 
-                    : questionBanks[currentSubject];
+                    : questionBanks[subjectToUse];
                 if (fallback && fallback.length > 0) {
                     const randomQuestion = fallback[Math.floor(Math.random() * fallback.length)];
                     currentQuestion = {
@@ -8318,6 +8318,35 @@
             
             // NEW: Handle kelp mode answers
             if (gameType === 'kelp' && hookedFish) {
+                // Add animations before handling answer
+                if (isCorrect) {
+                    buttons[index].classList.add('correct');
+                    const rect = buttons[index].getBoundingClientRect();
+                    
+                    // Celebration animation
+                    if (typeof celebrateCorrect === 'function') {
+                        celebrateCorrect(buttons[index]);
+                    }
+                    
+                    // Show score popup
+                    if (typeof showScorePopup === 'function') {
+                        showScorePopup('✓ Correct!', rect.left + rect.width / 2, rect.top);
+                    }
+                    
+                    // Confetti explosion
+                    if (typeof createConfettiExplosion === 'function') {
+                        createConfettiExplosion(rect.left + rect.width / 2, rect.top, 50);
+                    }
+                } else {
+                    buttons[index].classList.add('incorrect');
+                    buttons[shuffledCorrectIndex].classList.add('correct');
+                    
+                    // Shake animation for incorrect answer
+                    if (typeof shakeElement === 'function') {
+                        shakeElement(buttons[index]);
+                    }
+                }
+                
                 handleKelpAnswer(isCorrect);
                 // handleKelpAnswer already handles returning to canvas via returnToKelpFishing()
                 return;
@@ -9185,7 +9214,44 @@
         
         function showSummitQuestion() {
             // Use existing question system
-            nextQuestion();
+            // Ensure we use the correct subject for solo play
+            const subjectToUse = (isOnline && hostGameSubject) ? hostGameSubject : currentSubject;
+            const gradeToUse = (isOnline && hostGameGrade) ? hostGameGrade : (selectedGrade || 10);
+            
+            // Get questions filtered by grade and subject
+            const questions = getQuestionsForGrade(subjectToUse, gradeToUse);
+            if (!questions || questions.length === 0) {
+                console.error('No questions available for', subjectToUse, 'Grade', gradeToUse);
+                return;
+            }
+            
+            const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+            currentQuestion = {
+                q: randomQuestion.q,
+                a: [...randomQuestion.a],
+                correct: randomQuestion.correct,
+                topic: randomQuestion.topic,
+                note: randomQuestion.note
+            };
+            
+            // Shuffle answers
+            shuffledAnswers = [...currentQuestion.a];
+            const correctAnswer = shuffledAnswers[currentQuestion.correct];
+            for (let i = shuffledAnswers.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledAnswers[i], shuffledAnswers[j]] = [shuffledAnswers[j], shuffledAnswers[i]];
+            }
+            shuffledCorrectIndex = shuffledAnswers.indexOf(correctAnswer);
+            
+            // Track question for analytics
+            if (typeof trackQuestion === 'function') {
+                currentQuestion.analyticsId = trackQuestion(
+                    currentQuestion.q,
+                    shuffledAnswers,
+                    shuffledCorrectIndex,
+                    shuffledCorrectIndex
+                );
+            }
             
             // Get or create side panel
             let sidePanel = document.getElementById('summitQuestionSidePanel');
@@ -9259,6 +9325,18 @@
             
             if (isCorrect) {
                 buttons[index].classList.add('correct');
+                
+                // Celebration animation (similar to Tycoon mode)
+                const rect = buttons[index].getBoundingClientRect();
+                if (typeof celebrateCorrect === 'function') {
+                    celebrateCorrect(buttons[index]);
+                }
+                if (typeof createConfettiExplosion === 'function') {
+                    createConfettiExplosion(rect.left + rect.width / 2, rect.top, 30);
+                }
+                if (typeof showScorePopup === 'function') {
+                    showScorePopup('✓ Correct!', rect.left + rect.width / 2, rect.top);
+                }
                 
                 summitCorrect++;
                 summitStreak++;
@@ -9350,6 +9428,11 @@
             } else {
                 buttons[index].classList.add('incorrect');
                 buttons[shuffledCorrectIndex].classList.add('correct');
+                
+                // Shake animation for incorrect answer (similar to Tycoon mode)
+                if (typeof shakeElement === 'function') {
+                    shakeElement(buttons[index]);
+                }
                 
                 // Slip down
                 if (!summitShield) {
@@ -11624,7 +11707,10 @@
         
         function showKelpQuestion(school) {
             // Get question from current subject based on school topic
-            const questions = getQuestionsForGrade(currentSubject, selectedGrade || 10);
+            // Ensure we use the correct subject for solo play
+            const subjectToUse = (isOnline && hostGameSubject) ? hostGameSubject : currentSubject;
+            const gradeToUse = (isOnline && hostGameGrade) ? hostGameGrade : (selectedGrade || 10);
+            const questions = getQuestionsForGrade(subjectToUse, gradeToUse);
             if (!questions || questions.length === 0) {
                 console.error('No questions available');
                 return;
