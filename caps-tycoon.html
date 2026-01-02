@@ -8182,11 +8182,11 @@
             // Get questions filtered by grade
             const questions = getQuestionsForGrade(subjectToUse, gradeToUse);
             if (!questions || questions.length === 0) {
-                console.error('No questions available for', currentSubject, 'Grade', selectedGrade);
+                console.error('No questions available for', subjectToUse, 'Grade', gradeToUse);
                 // Fallback to default
-                const fallback = currentSubject === 'physicalSciences' 
+                const fallback = subjectToUse === 'physicalSciences' 
                     ? questionBanks.physicalSciences.default 
-                    : questionBanks[subjectToUse];
+                    : (subjectToUse === 'mathematics' ? questionBanks.mathematics.default : questionBanks[subjectToUse]);
                 if (fallback && fallback.length > 0) {
                     const randomQuestion = fallback[Math.floor(Math.random() * fallback.length)];
                     currentQuestion = {
